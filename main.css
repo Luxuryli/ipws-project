@@ -99,12 +99,6 @@ h4 {
   margin: 10px 0px 10px 0px;
 }
 
-/* .img8 {
-  display: block;
-  margin-right: 0;
-  margin-left: 0;
-  align-items: center;
-} */
 
 .container1 {
   background-image: url(img/wwdc22-dark-desktop.webp);
@@ -1124,7 +1118,7 @@ hr {
   opacity: 0.25;
 }
 
-@media  screen and (max-width: 424px) {
+@media  screen and (max-width: 428px) {
   header {
     height: 50px;
     padding: 12px 10px 12px 10px;
@@ -1536,6 +1530,615 @@ footer {
   background-color: #1f1f1f;
   height: 400px;
   margin: 4400px 0px 0px 0px;
+  padding: 0px 20px 20px 20px;
+}
+
+.img15 {
+  width: 250px;
+  height: 60px;
+  margin: 20px 0px 10px 0px;
+}
+
+.free {
+  margin: 0px 0px 10px 0px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.pay {
+display: none;
+}
+
+.pay1 {
+display: none;
+}
+
+.pay2 {
+display: none;
+}
+
+.explore {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 80px;
+  left: 20px;
+}
+
+.explore1 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+  left: 20px;
+}
+
+.explore2 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 115px;
+  left: 20px;
+}
+
+.explore3 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 130px;
+  left: 20px;
+}
+
+.explore4 {
+  color: rgb(206, 206, 206);
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+  left: 20px;
+}
+
+.learn {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 80px;
+  left: 25%;
+}
+
+.learn1 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+  left: 25%;
+}
+
+.learn2 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 115px;
+  left: 25%;
+}
+
+.learn3 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 130px;
+  left: 25%;
+}
+
+.learn4 {
+  color: rgb(206, 206, 206);
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+  left: 25%;
+}
+
+.car {
+  margin: 10px 0px 5px 0px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.legal {
+  margin: 20px 0px 30px 0px;
+  color: rgb(213, 213, 213);
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+} 
+
+.this {
+  margin: -61px 0px 0px 0px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+} 
+
+.twit {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0px 0px 0px;
+}
+
+.face {
+  width: 30px;
+  height: 30px;
+  margin: 15px 0px 0px 15px;
+}
+
+hr {
+  width: auto;
+  margin: 120px 0px 0px 0px;
+  opacity: 0.25;
+  padding: 0px;
+}
+}
+
+@media  screen and (max-width: 390px) {
+  header {
+    height: 50px;
+    padding: 12px 10px 12px 10px;
+  }
+
+  main {
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .img1, .box1, .donate, .img2, .img3, .img4, .img5, .img6, .img7  {
+    display: none;
+  }
+
+  .container {
+    background-color: #111111;
+    margin: 50px 0px 50px 0px;
+    padding: 0px 5px 0px 5px;
+    height: 650px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 0px 80px 0px 80px;
+    letter-spacing: -.003em;
+    line-height: 1.08349;
+  }
+  
+  h4 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.012em;
+    line-height: 34px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .container1 {
+    background-image: url(img/wwdc22-dark-mobile.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-color: #111111;
+    background-position: center;
+    margin-top: -15%;
+    padding: 0px 0px 20px 0px;
+}
+
+.icons1 {
+  display: flex;
+  position: absolute;
+  left:auto;
+  top: auto;
+}
+
+.icon1, .icon3, .icon4, .icon6 {
+  width: 35px;
+  margin: 350px 15px 350px 15px;
+}
+
+.icon2, .icon5 {
+  display: none;
+}
+
+.icon-label {
+  display: flex;
+  position: absolute;
+  left: auto;
+  top: auto;
+}
+
+.label1, .label3, .label4, .label6 {
+  color: white;
+  margin: 390px 10px 390px 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.label2, .label5 {
+  display: none;
+}
+
+.questions {
+  display: flex;
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+
+.support {
+  padding: 450px 5px 450px 5px;
+}
+
+.frequent {
+  padding: 450px 5px 450px 5px;
+}
+
+.arrow {
+  width: 15px;
+  display: flex;
+  position: absolute;
+  top: 49.2%;
+  left: 80px;
+}
+
+.arrow1 {
+  width: 15px;
+  display: flex;
+  position: absolute;
+  top: 49.2%;
+  left: 80%;
+}
+
+.container2 {
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+}
+
+.top {
+  display: none;
+}
+
+#sqr {
+  width: 330px;
+  height: 60px;
+  padding: 20px 5px 20px 10px;
+  margin: 10px 0px 10px 25px;
+  font-weight: 300;
+  border-radius: 10px;
+  font-size: 12px;
+  display: block;
+}
+
+#sqr1 {
+  width: 330px;
+  height: 60px;
+  padding: 8px 5px 8px 10px;
+  margin: 20px 0px 30px 25px;
+  border-radius: 10px;
+  line-height: 15px;
+  font-size: 12px;
+  display: block;
+}
+
+.apple {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cross {
+  display: none;
+}
+
+.iphone3 {
+  width: 250px;
+  margin: 30px 20px 75px 20px;
+}
+
+.iphone4 {
+  width: 250px;
+  margin: 30px 20px 75px 20px;
+}
+
+.iphone5 {
+  width: 250px;
+  margin: 30px 20px 75px 20px;
+}
+
+.iphone6 {
+  width: 250px;
+  margin: 30px 20px 75px 20px;
+}
+
+
+
+#sqr3 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
+  border-radius: 20px;
+  margin: 30px 20px 0px 20px;
+  padding: 50px 5px 50px 10px;
+  display: block;
+}
+
+
+
+#sqr4 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 40px 5px 0px 5px;
+}
+
+#sqr5 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+#sqr6 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
+  border-radius: 20px;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 50px 5px;
+  display: block;
+  float: left;
+}
+
+
+
+#sqr7 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr8 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+#sqr9 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
+  border-radius: 20px;
+  padding: 50px 5px 50px 5px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+}
+
+#sqr10 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+#sqr11 {
+  width: 360px;
+  height: 500px;
+  margin: 3700px 0px 30px 0px;
+  padding: 20px 15px 20px 15px;
+  background-color: #222222;
+  background-image: url(img/donate-image-2x.webp);
+  background-size: 400px;
+  background-clip:border-box;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: block;
+}
+
+.working {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 30px 0px 0px 30px;
+  margin: 0px;
+  text-align: left;
+}
+
+.freee {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 20px 0px 20px 0px;
+  margin: 0px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.paypalll {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgba(56, 152, 248, 0.611);
+  margin: 15px 20px 15px 20px;
+}
+
+.payy {
+  width: 60px;
+  margin: -13px 110px -13px 110px;
+}
+
+.coffee {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #df187851;
+  margin: 15px 20px 15px 20px;
+}
+
+.cup {
+  width: 30px;
+  margin: 0px 55px 0px 55px;
+}
+
+.buy {
+  color: #DF1877;
+  font-family: sans-serif;
+  margin: -28px 10px -30px 10px;
+  text-align: center;
+}
+
+
+#sqr12 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 30px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr13 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr14 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr15 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr16 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr17 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+
+#sqr18 {
+  width: 330px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
+  border-radius: 20px;
+  display: block;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  padding: 50px 5px 0px 5px;
+}
+
+
+footer {
+  background-color: #1f1f1f;
+  height: 400px;
+  margin: 3700px 0px 0px 0px;
   padding: 0px 20px 20px 20px;
 }
 
