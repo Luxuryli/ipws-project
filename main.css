@@ -1753,7 +1753,7 @@ hr {
     background-color: #111111;
     background-position: center;
     margin-top: -15%;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 8px;
 }
 
 .icons1 {
@@ -1765,7 +1765,7 @@ hr {
 
 .icon1, .icon3, .icon4, .icon6 {
   width: 35px;
-  margin: 350px 22px 350px 10px;
+  margin: 300px 30px 300px 0px;
 }
 
 .icon2, .icon5 {
@@ -1781,7 +1781,7 @@ hr {
 
 .label1, .label3, .label4, .label6 {
   color: white;
-  margin: 390px 16px 390px 10px;
+  margin: 345px 25px 345px 0px;
   font-size: 10px;
   font-family: sans-serif;
 }
@@ -1799,25 +1799,25 @@ hr {
 }
 
 .support {
-  padding: 450px 10px 0px 35px;
+  padding: 420px 10px 0px 25px;
 }
 
 .frequent {
-  padding: 450px 10px 0px 0px;
+  padding: 420px 10px 0px 0px;
 }
 
 .arrow {
   width: 15px;
   display: flex;
   top: 95.2%;
-  left: 37%;
+  left: 33%;
 }
 
 .arrow1 {
   width: 15px;
   display: flex;
   top: 95.2%;
-  left: 87%;
+  left: 83%;
 }
 
 .container2 {
@@ -1829,9 +1829,9 @@ hr {
 }
 
 #sqr {
-  width: 320px;
-  height: 60px;
-  padding: 20px 5px 20px 10px;
+  width: 290px;
+  height: 70px;
+  padding: 20px 10px 20px 10px;
   margin: 10px 0px 10px 25px;
   font-weight: 300;
   border-radius: 10px;
@@ -1840,9 +1840,9 @@ hr {
 }
 
 #sqr1 {
-  width: 320px;
-  height: 60px;
-  padding: 8px 5px 8px 10px;
+  width: 290px;
+  height: 70px;
+  padding: 10px 10px 10px 10px;
   margin: 20px 0px 30px 25px;
   border-radius: 10px;
   line-height: 15px;
