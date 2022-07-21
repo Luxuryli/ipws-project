@@ -1978,7 +1978,7 @@ hr {
 
 
 #sqr11 {
-  width: 350px;
+  width: 340px;
   height: 550px;
   margin: 3700px 0px 30px 0px;
   padding: 20px 15px 20px 15px;
@@ -2011,7 +2011,7 @@ hr {
 }
 
 .paypalll {
-  width: 280px;
+  width: 260px;
   height: 40px;
   border-radius: 15px;
   background-color: rgba(56, 152, 248, 0.611);
@@ -2020,11 +2020,11 @@ hr {
 
 .payy {
   width: 60px;
-  margin: -13px 110px -13px 110px;
+  margin: -13px 90px -13px 90px;
 }
 
 .coffee {
-  width: 280px;
+  width: 260px;
   height: 40px;
   border-radius: 15px;
   background-color: #df187851;
@@ -2039,7 +2039,7 @@ hr {
 .buy {
   color: #DF1877;
   font-family: sans-serif;
-  margin: -28px 10px -30px 10px;
+  margin: -26px 10px -26px 30px;
   text-align: center;
 }
 
