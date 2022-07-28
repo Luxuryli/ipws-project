@@ -126,9 +126,6 @@ h4 {
 
 .icons1 {
   display: flex;
-  /* flex-direction: row;
-  align-items: center;
-  justify-content: center; */
   width: 100%;
 }
 
@@ -7678,7 +7675,7 @@ body {
     
     #sqr1 {
       width: 100%;
-      height: 75px;
+      height: 85px;
       padding: 5px 5px 5px 5px;
       margin: 15px 0px 30px 0px;
       background-color: rgba(255, 255, 0, 0.14);
@@ -8453,7 +8450,6 @@ body {
       width: 100%;
       display: flex;
       flex-direction: column;
-      grid-area: con1;
     }
     
     .img15 {
@@ -8620,18 +8616,19 @@ body {
     hr {
       width: 100%;
       opacity: 0.25;
-      grid-area: con3;
+  
     
     }
     
     
     .container10 {
       width: 100%;
-      grid-area: con4;
+      align-content: center;
+      justify-items: center;
     }
     
     .carrr {
-      float: left;
+      justify-content: center;
     }
     
     
@@ -8645,11 +8642,12 @@ body {
     
     .container11 {
       width: 100%;
-      grid-area: con5;
+      align-content: center;
+      justify-items: center;
     }
     
     .legalll {
-      float: right;
+      justify-content: center;
     }
     
     .legal {
