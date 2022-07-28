@@ -250,11 +250,11 @@ h4 {
 
 .container4 {
   padding: 100px 180px 100px 180px;
-  width: 100%;
   display:grid;
   grid-template-areas: 'myArea3 myArea4 myArea5'
   'myArea6 myArea7 myArea8'
   'myArea9 myArea10 myArea10';
+  gap: 10px;
 }
 
 
@@ -660,7 +660,6 @@ h4 {
 
 .container5 {
   padding: 100px 180px 100px 180px;
-  width: 100%;
   display:grid;
   grid-template-areas:'myArea11 myArea11 myArea11';
   grid-gap: 10px;
@@ -742,7 +741,6 @@ h4 {
 
 .container6 {
   padding: 100px 180px 100px 180px;
-  width: 100%;
   display:grid;
   grid-template-areas:'myArea12 myArea13 myArea14'
   'myArea15 myArea16 myArea17'
@@ -1026,7 +1024,7 @@ footer {
   background-color: #1f1f1f;
   width: 100%;
   margin: 50px 0px 0px 0px;
-  padding: 20px 200px 200px 200px;
+  padding: 20px 200px 100px 200px;
   display: grid;
   grid-template-areas: 'con1 con2'
   'con3 con3'
@@ -1499,7 +1497,6 @@ hr {
   
   .container4 {
     padding: 100px 100px 100px 100px;
-    width: 100%;
     display:grid;
     grid-template-areas: 'myArea3 myArea4 myArea5'
     'myArea6 myArea7 myArea8'
@@ -1910,7 +1907,6 @@ hr {
   
   .container5 {
     padding: 100px 100px 100px 100px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
     grid-gap: 10px;
@@ -1992,7 +1988,6 @@ hr {
   
   .container6 {
     padding: 100px 100px 100px 100px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea12 myArea13 myArea14'
     'myArea15 myArea16 myArea17'
@@ -2276,7 +2271,7 @@ hr {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 150px 200px 150px;
+    padding: 20px 150px 100px 150px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -2749,7 +2744,6 @@ hr {
   
   .container4 {
     padding: 100px 0px 100px 0px;
-    width: 90%;
     display:grid;
     grid-template-areas: 'myArea3 myArea4'
     'myArea5 myArea6'
@@ -3161,9 +3155,9 @@ hr {
   
   .container5 {
     padding: 100px 50px 100px 50px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
+    gap: 10px;
   }
   
   
@@ -3242,7 +3236,6 @@ hr {
   
   .container6 {
     padding: 100px 0px 100px 0px;
-    width: 90%;
     display:grid;
     grid-template-areas:'myArea12 myArea13'
     'myArea14 myArea15'
@@ -3526,7 +3519,7 @@ hr {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 50px 200px 50px;
+    padding: 20px 50px 100px 50px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -4001,7 +3994,6 @@ body {
   
   .container4 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas: 'myArea3 myArea4'
     'myArea5 myArea6'
@@ -4413,9 +4405,9 @@ body {
   
   .container5 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
+    gap: 10px;
   }
   
   
@@ -4494,7 +4486,6 @@ body {
   
   .container6 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea12 myArea13'
     'myArea14 myArea15'
@@ -4778,7 +4769,7 @@ body {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 50px 200px 50px;
+    padding: 20px 50px 100px 50px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -5246,7 +5237,6 @@ body {
 
   .container4 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas: 'myArea3 myArea4'
     'myArea5 myArea6'
@@ -5658,9 +5648,9 @@ body {
   
   .container5 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
+    gap: 10px;
   }
   
   
@@ -5739,7 +5729,6 @@ body {
   
   .container6 {
     padding: 100px 0px 100px 0px;
-    width: 100%;
     display:grid;
     grid-template-areas:'myArea12 myArea13'
     'myArea14 myArea15'
@@ -6023,7 +6012,7 @@ body {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 50px 200px 50px;
+    padding: 20px 50px 100px 50px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -6493,7 +6482,6 @@ body {
   
     .container4 {
       padding: 100px 30px 100px 30px;
-      width: 100%;
       display:grid;
       grid-template-areas: 'myArea3 myArea4'
       'myArea5 myArea6'
@@ -6905,9 +6893,9 @@ body {
     
     .container5 {
       padding: 100px 30px 100px 30px;
-      width: 100%;
       display:grid;
       grid-template-areas:'myArea11 myArea11 myArea11';
+      gap: 10px;
     }
     
     
@@ -6985,7 +6973,6 @@ body {
     
     .container6 {
       padding: 100px 30px 100px 30px;
-      width: 100%;
       display:grid;
       grid-template-areas:'myArea12 myArea13'
       'myArea14 myArea15'
@@ -7269,7 +7256,7 @@ body {
       background-color: #1f1f1f;
       width: 100%;
       margin: 50px 0px 0px 0px;
-      padding: 20px 30px 200px 30px;
+      padding: 20px 30px 100px 30px;
       display: grid;
       grid-template-areas: 'con1 con2'
       'con3 con3'
@@ -8105,7 +8092,7 @@ body {
     
     #sqr11 {
       width: 100%;
-      height: 600px;
+      height: 400px;
       border-radius: 30px;
       padding: 50px 10px 50px 10px;
       background-color: #222222;
@@ -8122,7 +8109,7 @@ body {
     .working {
       color: white;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 14px;
       width: 100%;
       text-align: center;
       margin-left: auto;
@@ -8132,7 +8119,7 @@ body {
     .freee {
       color: darkgrey;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 12px;
       text-align: center;
       width: 80%;
       margin-top: 20px;
