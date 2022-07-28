@@ -671,7 +671,7 @@ h4 {
   width: 1243px;
   height: 250px;
   border-radius: 30px;
-  padding: 50px 10px 50px 50px;
+  padding: 50px 50px 50px 50px;
   background-color: #222222;
   background-image: url(img/donate-image-2x.webp);
   background-size: 650px;
@@ -679,7 +679,6 @@ h4 {
   background-position: 585px;
   display: flex;
   flex-direction: column;
-  justify-items: left;
   grid-area: myArea11;
 }
 
@@ -687,7 +686,7 @@ h4 {
   color: white;
   font-family: sans-serif;
   font-size: 20px;
-  margin: 0px 10px 0px 100px;
+  margin-left: 105px;
 }
 
 .freee {
@@ -705,9 +704,9 @@ h4 {
   height: 30px;
   border-radius: 5px;
   background-color: rgba(56, 152, 248, 0.611);
-  margin: 0px 10px 0px 50px;
   padding: 0px 10px 0px 10px;
   display: flex;
+  margin-left: 50px;
 }
 
 .payy {
@@ -723,7 +722,7 @@ h4 {
   padding: 2px 5px 2px 5px;
   display: flex;
   flex-direction: row;
-
+  margin-left: 10px;
 }
 
 .cup {
@@ -1926,7 +1925,6 @@ hr {
     background-position: 585px;
     display: flex;
     flex-direction: column;
-    justify-items: left;
     grid-area: myArea11;
   }
   
@@ -1934,7 +1932,6 @@ hr {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
-    margin: 0px 10px 0px 100px;
   }
   
   .freee {
@@ -1952,7 +1949,6 @@ hr {
     height: 30px;
     border-radius: 5px;
     background-color: rgba(56, 152, 248, 0.611);
-    margin: 0px 10px 0px 50px;
     padding: 0px 10px 0px 10px;
     display: flex;
   }
@@ -3166,7 +3162,7 @@ hr {
     width: 1050px;
     height: 250px;
     border-radius: 30px;
-    padding: 50px 10px 50px 50px;
+    padding: 50px 0px 50px 50px;
     background-color: #222222;
     background-image: url(img/donate-image-2x.webp);
     background-size: 650px;
@@ -3174,7 +3170,6 @@ hr {
     background-position: 490px;
     display: flex;
     flex-direction: column;
-    justify-items: left;
     grid-area: myArea11;
   }
   
@@ -3182,7 +3177,6 @@ hr {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
-    margin: 0px 10px 0px 100px;
   }
   
   .freee {
@@ -3191,7 +3185,7 @@ hr {
     font-size: 12px;
     text-orientation: upright;
     text-align: center;
-    width: 30%;
+    width: 35%;
     margin-top: 10px;
   }
   
@@ -3200,7 +3194,6 @@ hr {
     height: 30px;
     border-radius: 5px;
     background-color: rgba(56, 152, 248, 0.611);
-    margin: 0px 10px 0px 40px;
     padding: 0px 10px 0px 10px;
     display: flex;
   }
@@ -4424,7 +4417,6 @@ body {
     background-position: 490px;
     display: flex;
     flex-direction: column;
-    justify-items: left;
     grid-area: myArea11;
   }
   
@@ -4432,7 +4424,6 @@ body {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
-    margin: 0px 10px 0px 100px;
   }
   
   .freee {
@@ -4441,7 +4432,7 @@ body {
     font-size: 12px;
     text-orientation: upright;
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin-top: 10px;
   }
   
@@ -4450,7 +4441,6 @@ body {
     height: 30px;
     border-radius: 5px;
     background-color: rgba(56, 152, 248, 0.611);
-    margin: 0px 10px 0px 40px;
     padding: 0px 10px 0px 10px;
     display: flex;
   }
@@ -5667,7 +5657,6 @@ body {
     background-position: 490px;
     display: flex;
     flex-direction: column;
-    justify-items: left;
     grid-area: myArea11;
   }
   
@@ -5675,16 +5664,14 @@ body {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
-    margin: 0px 10px 0px 100px;
   }
   
   .freee {
     color: darkgrey;
     font-family: sans-serif;
     font-size: 12px;
-    text-orientation: upright;
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin-top: 10px;
   }
   
@@ -5693,7 +5680,6 @@ body {
     height: 30px;
     border-radius: 5px;
     background-color: rgba(56, 152, 248, 0.611);
-    margin: 0px 10px 0px 40px;
     padding: 0px 10px 0px 10px;
     display: flex;
   }
@@ -6920,13 +6906,14 @@ body {
     .working {
       color: white;
       font-family: sans-serif;
-      font-size: 30px;
+      font-size: 20px;
+      margin: 0px;
     }
     
     .freee {
       color: darkgrey;
       font-family: sans-serif;
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
       width: 80%;
       margin-top: 20px;
@@ -8104,23 +8091,20 @@ body {
       flex-direction: column;
       justify-items: center;
       align-items: center;
-      text-align: center;
     }
     
     .working {
       color: white;
       font-family: sans-serif;
-      font-size: 14px;
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 20px;
+      margin: 0px;
     }
     
     .freee {
       color: darkgrey;
       font-family: sans-serif;
-      font-size: 12px;
+      font-size: 14px;
       text-align: center;
-      width: 80%;
       margin-top: 20px;
     }
     
@@ -8146,7 +8130,7 @@ body {
       padding: 2px 5px 2px 5px;
       display: flex;
       flex-direction: row;
-    
+      margin: 0px;
     }
     
     .cup {
