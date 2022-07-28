@@ -120,13 +120,15 @@ h4 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
 .icons1 {
   display: flex;
   width: 100%;
+  align-content: center;
+  justify-content: center;
 }
 
 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
