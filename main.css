@@ -249,7 +249,7 @@ h4 {
 }
 
 .container4 {
-  padding: 100px 180px 100px 180px;
+  padding: 100px 0px 100px 0px;
   display:grid;
   grid-template-areas: 'myArea3 myArea4 myArea5'
   'myArea6 myArea7 myArea8'
@@ -659,7 +659,7 @@ h4 {
 
 
 .container5 {
-  padding: 100px 180px 100px 180px;
+  padding: 100px 0px 100px 0px;
   display:grid;
   grid-template-areas:'myArea11 myArea11 myArea11';
   grid-gap: 10px;
@@ -739,7 +739,7 @@ h4 {
 
 
 .container6 {
-  padding: 100px 180px 100px 180px;
+  padding: 100px 0px 100px 0px;
   display:grid;
   grid-template-areas:'myArea12 myArea13 myArea14'
   'myArea15 myArea16 myArea17'
@@ -1442,7 +1442,7 @@ hr {
     align-items: center;
     justify-items: center;
     margin-top: 80px;
-    padding: 0px 100px 0px 100px;
+    padding: 10px 0px 10px 0px;
   }
   
   #sqr {
@@ -1495,7 +1495,7 @@ hr {
   }
   
   .container4 {
-    padding: 100px 100px 100px 100px;
+    padding: 100px 0px 100px 0px;
     display:grid;
     grid-template-areas: 'myArea3 myArea4 myArea5'
     'myArea6 myArea7 myArea8'
@@ -1905,7 +1905,7 @@ hr {
   
   
   .container5 {
-    padding: 100px 100px 100px 100px;
+    padding: 100px 0px 100px 0px;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
     grid-gap: 10px;
@@ -1983,7 +1983,7 @@ hr {
   
   
   .container6 {
-    padding: 100px 100px 100px 100px;
+    padding: 100px 0px 100px 0px;
     display:grid;
     grid-template-areas:'myArea12 myArea13 myArea14'
     'myArea15 myArea16 myArea17'
@@ -3150,7 +3150,7 @@ hr {
   
   
   .container5 {
-    padding: 100px 50px 100px 50px;
+    padding: 100px 0px 100px 0px;
     display:grid;
     grid-template-areas:'myArea11 myArea11 myArea11';
     gap: 10px;
@@ -6467,7 +6467,7 @@ body {
     }
   
     .container4 {
-      padding: 100px 30px 100px 30px;
+      padding: 100px 0px 100px 0px;
       display:grid;
       grid-template-areas: 'myArea3 myArea4'
       'myArea5 myArea6'
@@ -6878,7 +6878,7 @@ body {
     
     
     .container5 {
-      padding: 100px 30px 100px 30px;
+      padding: 100px 0px 100px 0px;
       display:grid;
       grid-template-areas:'myArea11 myArea11 myArea11';
       gap: 10px;
@@ -6959,7 +6959,7 @@ body {
     
     
     .container6 {
-      padding: 100px 30px 100px 30px;
+      padding: 100px 0px 100px 0px;
       display:grid;
       grid-template-areas:'myArea12 myArea13'
       'myArea14 myArea15'
