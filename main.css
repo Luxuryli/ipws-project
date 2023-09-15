@@ -8655,7 +8655,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px 10px 20px 10px;
+      padding: 20px 25px 20px 25px;
     }
     
     .iconn {
@@ -8689,7 +8689,7 @@ body {
       height: 650px;
       width: 100%;
       background-color: #111111;
-      padding: 20px 5px 5px 5px;
+      padding: 20px 10px 5px 10px;
     }
     
     
@@ -8711,7 +8711,7 @@ body {
     
     
     .container1 {
-      padding: 0px 5px 0px 5px;
+      padding: 0px 10px 0px 10px;
       width: 100%;
     }
     
@@ -8803,7 +8803,7 @@ body {
       align-items: center;
       justify-items: center;
       margin-top: 80px;
-      padding: 0px 5px 0px 5px;
+      padding: 0px 10px 0px 10px;
     }
     
     #sqr {
@@ -9235,7 +9235,7 @@ body {
     
     
     .container5 {
-      padding: 50px 0px 50px 0px;
+      padding: 50px 10px 50px 10px;
       width: 100%;
       display: block;
     }
@@ -9320,7 +9320,7 @@ body {
     
     
     .container6 {
-      padding: 100px 0px 100px 0px;
+      padding: 100px 10px 100px 10px;
       width: 100%;
       display: block;
     }
