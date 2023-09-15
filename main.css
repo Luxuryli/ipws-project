@@ -11,9 +11,9 @@ body {
 
 header {
   background-color: rgb(27, 27, 27);
-  height: 50px;
+  height: 55px;
   width: 100%;
-  padding: 12px 200px 12px 200px;
+  padding: 15px 80px 15px 80px;
 }
 
 nav {
@@ -27,7 +27,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 80px 20px 80px;
 }
 
 .iconn {
@@ -124,31 +124,45 @@ h4 {
   justify-content: center;
 }
 
-.icons1 {
+.icons-label {
   display: flex;
-  width: 100%;
-  align-content: center;
-  justify-content: center;
-}
-
-.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-  width: 60px;
-  margin: 0px 30px 0px 30px;
-}
-
-.icon-label {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
-
+  padding: 0px 200px;
 }
 
-.label1, .label2, .label3, .label4, .label5, .label6 {
+.icl1, .icl2, .icl3, .icl4, .icl5, .icl6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon1, .icon2, .icon3, .icon5 {
+  width: 40%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon4, .icon6 {
+  width: 40%;
+  display: flex;
+}
+
+
+
+.label4, .label6 {
   color: white;
-  margin: 10px 23px 10px 35px;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top: 26px;
+}
+
+.label1, .label2, .label3, .label5{
+  color: white;
+  font-size: 12px;
   font-family: sans-serif;
 }
 
@@ -200,7 +214,7 @@ h4 {
 }
 
 #sqr {
-  width: 1240px;
+  width: 1100px;
   height: 38px;
   padding: 10px 10px 10px 10px;
   background-color: rgba(70, 131, 180, 0.14);
@@ -216,7 +230,7 @@ h4 {
 }
 
 #sqr1 {
-  width: 1240px;
+  width: 1100px;
   height: 38px;
   padding: 10px 10px 10px 10px;
   margin: 15px 0px 30px 0px;
@@ -249,19 +263,19 @@ h4 {
 }
 
 .container4 {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 80px 100px 80px;
   display:grid;
   grid-template-areas: 'myArea3 myArea4 myArea5'
   'myArea6 myArea7 myArea8'
   'myArea9 myArea10 myArea10';
-  gap: 10px;
+  gap: 15px;
 }
 
 
 
 #sqr3 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
   border-radius: 20px;
   padding: 20px 20px 0px 20px;
@@ -283,7 +297,7 @@ h4 {
 }
 
 .ios {
-  width: 70px;
+  width: 15%;
 }
 
 .Beta {
@@ -368,15 +382,15 @@ h4 {
 }
 
 .iphone3 {
-  width: 400px;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 35px;
 }
 
 
 
 #sqr4 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
   border-radius: 20px;
   display: flex;
@@ -417,15 +431,15 @@ h4 {
 }
 
 .iphone4 {
-  width: 400px;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 35px;
 }
 
 
 
 #sqr5 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
   border-radius: 20px;
   display: flex;
@@ -460,15 +474,15 @@ h4 {
 }
 
 .iphone5 {
-  width: 400px;
+  width: 100%;
   margin-top: 20px;
 }
 
 
 
 #sqr6 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
   border-radius: 20px;
   padding: 20px 20px 0px 20px;
@@ -514,8 +528,8 @@ h4 {
 
 
 #sqr7 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
   border-radius: 20px;
   padding: 20px 20px 0px 20px;
@@ -556,14 +570,15 @@ h4 {
 }
 
 .iphone6 {
-  width: 400px;
+  width: 100%;
+  margin-top: 35px;
 }
 
 
 
 #sqr8 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
   border-radius: 20px;
   display: flex;
@@ -587,8 +602,8 @@ h4 {
 
 
 #sqr9 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
   border-radius: 20px;
   padding: 20px 20px 0px 20px;
@@ -622,8 +637,8 @@ h4 {
 
 
 #sqr10 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
   border-radius: 20px;
   display: flex;
@@ -659,7 +674,7 @@ h4 {
 
 
 .container5 {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 80px 100px 80px;
   display:grid;
   grid-template-areas:'myArea11 myArea11 myArea11';
   grid-gap: 10px;
@@ -668,7 +683,7 @@ h4 {
 
 
 #sqr11 {
-  width: 1243px;
+  width: 1100px;
   height: 250px;
   border-radius: 30px;
   padding: 50px 50px 50px 50px;
@@ -739,18 +754,18 @@ h4 {
 
 
 .container6 {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 80px 100px 80px;
   display:grid;
   grid-template-areas:'myArea12 myArea13 myArea14'
   'myArea15 myArea16 myArea17'
   'myArea18 myArea18 myArea18';
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 
 
 #sqr12 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
   border-radius: 20px;
   padding: 20px 20px 0px 20px;
@@ -803,14 +818,14 @@ h4 {
 }
 
 .iphone3 {
-  width: 400px;
+  width: 100%;
 }
 
 
 
 #sqr13 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
   border-radius: 20px;
   display: flex;
@@ -850,14 +865,14 @@ h4 {
 }
 
 .iphone4 {
-  width: 400px;
+  width: 100%;
 }
 
 
 
 #sqr14 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
   border-radius: 20px;
   display: flex;
@@ -877,15 +892,15 @@ h4 {
 }
 
 .iphone5 {
-  width: 400px;
+  width: 100%;
 }
 
 
 
 
 #sqr15 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
   border-radius: 20px;
   display: flex;
@@ -909,8 +924,8 @@ h4 {
 
 
 #sqr16 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
   border-radius: 20px;
   display: flex;
@@ -946,8 +961,8 @@ h4 {
 
 
 #sqr17 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
   border-radius: 20px;
   display: flex;
@@ -970,8 +985,8 @@ h4 {
 
 
 #sqr18 {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
   border-radius: 20px;
   padding: 20px 10px 0px 10px;
@@ -985,7 +1000,7 @@ h4 {
 
 #sqr8-1 {
   width: 135px;
-  height: 30px;
+  height: 50px;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 3px;
   border-width: 1px;
@@ -993,7 +1008,7 @@ h4 {
   border-left-width: 60px;
   border-style: solid;
   border-color: white;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .ios7 {
@@ -1023,7 +1038,7 @@ footer {
   background-color: #1f1f1f;
   width: 100%;
   margin: 50px 0px 0px 0px;
-  padding: 20px 200px 100px 200px;
+  padding: 20px 80px 100px 80px;
   display: grid;
   grid-template-areas: 'con1 con2'
   'con3 con3'
@@ -1251,1250 +1266,1282 @@ hr {
 } 
 
 
-@media only screen and (max-width: 1440px) {
-  body {
-    background-color: #111111;
-    width: 100%;
-  }
-  
-  header {
-    background-color: rgb(27, 27, 27);
-    height: 50px;
-    width: 100%;
-    padding: 12px 150px 12px 150px;
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  .iconn {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .img {
-    width: 150px;
-  }
-  
-  .img1 {
-    width: 18px;
-    margin: 4px 8px 4px 8px;
-  }
-  
-  .box1 {
-    background-color: none;
-    border-radius: 10px;
-    width: 120px;
-    height: 28px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 2px;
-    padding: 2px 2px 2px 2px;
-  }
-  
-  .box1:hover {
-    background-color: grey;
-  }
-  
-  .donate {
-    color:  rgba(221, 25, 110, 0.936);
-    font-family: sans-serif;
-    margin: 5px 0px 5px 0px;
-  }
-  
-  .img2 {
-    width: 15px;
-    margin: 3px 3px 3px 5px;
-  }
-  
-  
-  .iconnn {
-    width: 100%;
-  }
-  
-  .icons {
-    float: right;
-    display:table;
-  }
-  
-  .img3, .img4, .img5, .img6, .img7 {
-    width: 17px;
-    margin: 5px 10px 5px 10px;
-  }
-  
-  .container {
-    background-image: url(img/wwdc22-dark-desktop.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 650px;
-    width: 100%;
-    background-color: #111111;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  
-  h1 {
-    color: white;
-    text-align: center;
-    font-size: 55px;
-    font-family: sans-serif;
-  }
-  
-  h4 {
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 350;
-    font-family: sans-serif;
-    margin: 10px 0px 10px 0px;
-  }
-  
-  
-  .container1 {
-    padding: 0px 30px 0px 30px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .icons1 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-    width: 60px;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .icon-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  
-  }
-  
-  .label1, .label2, .label3, .label4, .label5, .label6 {
-    color: white;
-    margin: 10px 23px 10px 35px;
-    font-size: 14px;
-    font-family: sans-serif;
-  }
-  
-  
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .questions {
-    display: flex;
-    margin-top: 50px;
-  }
-  
-  .support {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
 
-  .questionss {
-    display: flex;
-    margin-top: 50px;
-  }
-  
-  .frequent {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-    margin-left: 50px;
-  }
-  
-  .arrow {
-    width: 20px;
-  }
-  
-  
-  .container3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-    margin-top: 80px;
-    padding: 10px 0px 10px 0px;
-  }
-  
-  #sqr {
-    width: 1240px;
-    height: 38px;
-    padding: 10px 10px 10px 10px;
-    background-color: rgba(70, 131, 180, 0.14);
-    border-color:steelblue;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    border-left-width: 7px;
-    border-left-color: steelblue;
-    color: steelblue;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
-  
-  #sqr1 {
-    width: 1240px;
-    height: 38px;
-    padding: 10px 10px 10px 10px;
-    margin: 15px 0px 30px 0px;
-    background-color: rgba(255, 255, 0, 0.14);
-    border-color: yellow;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    border-left-width: 7px;
-    border-left-color: yellow;
-    color: yellow;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
-  
-  .apple {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .cross {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    position: relative;
-    float: right;
-    bottom: 33px;
-    left: 15px;
-  }
-  
-  .container4 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas: 'myArea3 myArea4 myArea5'
-    'myArea6 myArea7 myArea8'
-    'myArea9 myArea10 myArea10';
-    grid-gap: 10px;
-  }
-  
-  
-  
-  #sqr3 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    grid-area: myArea3;
-    margin-top: 80px;
-  }
-  
-  .top {
-    color: white;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 500;
-    text-align: center;
-    position: relative;
-    bottom: 45px;
-  }
-  
-  .ios {
-    width: 70px;
-  }
-  
-  .Beta {
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 550;
-    margin-top: 20px;
-  }
-  
-  #sqr3-1 {
-    width: 90px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 50px;
-    border-style: solid;
-    border-color: white;
-    padding: 5px 5px 5px 5px;
-    margin-top: 20px;
-  }
-  
-  .ios1 {
-    color: rgb(237, 208, 155);
-    margin: 3px -50px 3px -50px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  
-  }
-  
-  .ios1-0 {
-    color: white;
-    margin: -17px 5px 0px 2px;
-    font-size: 13px;
-    font-family: sans-serif;
-  
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  .cont {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-  }
-  
-  #sqr3-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    padding: 8px 8px 8px 10px;
-    font-size: 14px;
-    color: white;
-    font-family: sans-serif;
-  }
-  
-  #sqr3-3 {
-    width: 60px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 8px 8px 8px 10px;
-    margin-left: 10px;
-  }
-  
-  .iphone3 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr4 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea4;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr4-1 {
-    width: 120px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 80px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios2 {
-    color: rgb(118, 158, 226);
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone4 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr5 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea5;
-    margin-top: 80px;
-  
-  }
-  
-  .ios3 {
-    color: rgb(200, 237, 144);
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr4-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    padding: 8px 8px 8px 10px;
-    font-size: 14px;
-    color: white;
-    font-family: sans-serif;
-    margin-top: 20px;
-  }
-  
-  .iphone5 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr6 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea6;
-    margin-top: 80px;
-  }
-  
-  .Beta {
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 550;
-    margin-top: 10px;
-  }
-  
-  .ios4 {
-    color: pink;
-    margin: 7px -73px 7px -73px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios1-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  
-  
-  #sqr7 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea7;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr5-1 {
-    width: 95px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios5 {
-    color: rgb(255, 198, 255);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone6 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr8 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea8;
-    margin-top: 80px;
-  
-  }
-  
-  .ios6 {
-    color: pink;
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  
-  #sqr9 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea9;
-  }
-  
-  .ios9 {
-    color: rgb(211, 25, 56);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr5-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 8px 5px 8px 5px;
-    margin-top: 20px;
-  }
-  
-  
-  #sqr10 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea10;
-  
-  }
-  
-  #sqr6-2 {
-    width: 90px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 7px 10px 7px 10px;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
-  .ios8 {
-    color: rgb(16, 91, 152);
-    margin: 7px -70px 7px -70px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  .container5 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas:'myArea11 myArea11 myArea11';
-    grid-gap: 10px;
-  }
-  
-  
-  
-  #sqr11 {
-    width: 1243px;
-    height: 250px;
-    border-radius: 30px;
-    padding: 50px 10px 50px 50px;
-    background-color: #222222;
-    background-image: url(img/donate-image-2x.webp);
-    background-size: 650px;
-    background-repeat: no-repeat;
-    background-position: 585px;
-    display: flex;
-    flex-direction: column;
-    grid-area: myArea11;
-  }
-  
-  .working {
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-  }
-  
-  .freee {
-    color: darkgrey;
-    font-family: sans-serif;
-    font-size: 12px;
-    text-orientation: upright;
-    text-align: center;
-    width: 30%;
-    margin-top: 10px;
-  }
-  
-  .paypalll {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgba(56, 152, 248, 0.611);
-    padding: 0px 10px 0px 10px;
-    display: flex;
-  }
-  
-  .payy {
-    width: 70px;
-    object-fit: cover;
-  }
-  
-  .coffee {
-    width: 140px;
-    height: 30px;
-    border-radius: 5px;
-    background-color:  #df187851;
-    padding: 2px 5px 2px 5px;
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  .cup {
-    width: 30px;
-  }
-  
-  .buy {
-    color: #DF1877;
-    font-family: sans-serif;
-    font-size: 13px;
-    margin-top: 6px;
-  }
-  
-  
-  
-  .container6 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas:'myArea12 myArea13 myArea14'
-    'myArea15 myArea16 myArea17'
-    'myArea18 myArea18 myArea18';
-    grid-gap: 10px;
-  }
-  
-  
-  #sqr12 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea12;
-  
-  }
-  
-  
-  #sqr6-1 {
-    width: 120px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 70px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  
-  
-  .ios12 {
-    color: rgb(216, 165, 69);
-    margin: 7px -62px 7px -62px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  .ios1-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .iphone3 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr13 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea13;
-  
-  }
-  
-  .ios13 {
-    color: rgb(181, 193, 242);
-    margin: 7px -83px 7px -83px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr7-1 {
-    width: 140px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 90px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone4 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr14 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea14;
-  
-  }
-  
-  .ios14 {
-    color: rgb(0, 255, 213);
-    margin: 7px -85px 7px -85px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .iphone5 {
-    width: 400px;
-  }
-  
-  
-  
-  
-  #sqr15 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea15;
-    margin-top: 80px;
-  
-  }
-  
-  .ios15 {
-    color: rgb(252, 145, 247);
-    margin: 7px -82px 7px -82px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  
-  #sqr16 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea16;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr5-1 {
-    width: 95px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios16 {
-    color: rgb(242, 145, 75);
-    margin: 7px -65px 7px -65px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  #sqr17 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea17;
-    margin-top: 80px;
-  
-  }
-  
-  .ios17 {
-    color: rgb(251, 140, 159);
-    margin: 7px -85px 7px -85px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  #sqr18 {
-    width: 400px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
-    border-radius: 20px;
-    padding: 20px 10px 0px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea18;
-  
-  }
-  
-  #sqr8-1 {
-    width: 135px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios7 {
-    color: rgb(212, 27, 233);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr5-3 {
-    width: 110px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    color: white;
-    font-family: sans-serif;
-    padding: 7px 8px 7px 10px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  footer {
-    background-color: #1f1f1f;
-    width: 100%;
-    margin: 50px 0px 0px 0px;
-    padding: 20px 150px 100px 150px;
-    display: grid;
-    grid-template-areas: 'con1 con2'
-    'con3 con3'
-    'con4 con5'
-    'con6 con6';
-    grid-gap: 10px;
-  }
-  
-  .container8 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-area: con1;
-  }
-  
-  .img15 {
-    width: 250px;
-    height: 60px;
-    margin-top: 20px;
-  }
-  
-  .free {
-    margin-top: 20px; 
-    color: grey;
-    font-family: sans-serif;
-    font-size: 12px;
-  
-  }
-  
-  .twit {
-    width: 40px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .face {
-    width: 40px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .container9 {
-    width: 100%;
-    grid-area: con2;
-    margin-top: 50px;
-  }
-  
-  .wordings {
-    float: right;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .pay11 {
-    display:flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  .pay {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .pay1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;  
-    margin-bottom: 5px;
-  }
-  
-  .pay2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  
-  .explore11 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 50px;
-  }
-  
-  .explore {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore3 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore4 {
-    color: rgb(206, 206, 206);
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn11 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 50px;
-  }
-  
-  .learn {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn3 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn4 {
-    color: rgb(206, 206, 206);
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  hr {
-    width: 100%;
-    opacity: 0.25;
-    grid-area: con3;
-  
-  }
-  
-  
-  .container10 {
-    width: 100%;
-    grid-area: con4;
-  }
-  
-  .carrr {
-    float: left;
-  }
-  
-  
-  .car {
-    margin: 30px 0px 0px 0px; 
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-  } 
-  
-  
-  .container11 {
-    width: 100%;
-    grid-area: con5;
-  }
-  
-  .legalll {
-    float: right;
-  }
-  
-  .legal {
-    margin: 30px 0px 10px 0px; 
-    color: rgb(213, 213, 213);
-    font-family: sans-serif;
-    font-size: 14px;
-  } 
-  
-  
-  .this {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 12px;
-  } 
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+body {
+  background-color: #111111;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(27, 27, 27);
+  height: 55px;
+  width: 100%;
+  padding: 15px 80px 15px 80px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px 20px 80px;
+}
+
+.iconn {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  width: 150px;
+}
+
+.img1 {
+  width: 18px;
+  margin: 4px 8px 4px 8px;
+}
+
+.box1 {
+  background-color: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+.box1:hover {
+  background-color: grey;
+}
+
+.donate {
+  color:  rgba(221, 25, 110, 0.936);
+  font-family: sans-serif;
+  margin: 5px 0px 5px 0px;
+}
+
+.img2 {
+  width: 15px;
+  margin: 3px 3px 3px 5px;
+}
+
+
+.iconnn {
+  width: 100%;
+}
+
+.icons {
+  float: right;
+  display:table;
+}
+
+.img3, .img4, .img5, .img6, .img7 {
+  width: 17px;
+  margin: 5px 10px 5px 10px;
+}
+
+.container {
+  background-image: url(img/wwdc22-dark-desktop.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  background-color: #111111;
+  padding: 20px 20px 20px 20px;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 350;
+  font-family: sans-serif;
+  margin: 10px 0px 10px 0px;
+}
+
+
+.container1 {
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.icons-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 200px;
+}
+
+.icl1, .icl2, .icl3, .icl4, .icl5, .icl6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon1, .icon2, .icon3, .icon5 {
+  width: 40%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon4, .icon6 {
+  width: 40%;
+  display: flex;
+}
+
+
+
+.label4, .label6 {
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top: 26px;
+}
+
+.label1, .label2, .label3, .label5{
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.questions {
+  display: flex;
+  margin-top: 50px;
+}
+
+.support {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.questionss {
+  display: flex;
+  margin-top: 50px;
+}
+
+.frequent {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-left: 50px;
+}
+
+.arrow {
+  width: 20px;
+}
+
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
+}
+
+#sqr {
+  width: 1100px;
+  height: 38px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(70, 131, 180, 0.14);
+  border-color:steelblue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-left-width: 7px;
+  border-left-color: steelblue;
+  color: steelblue;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#sqr1 {
+  width: 1100px;
+  height: 38px;
+  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 30px 0px;
+  background-color: rgba(255, 255, 0, 0.14);
+  border-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-left-width: 7px;
+  border-left-color: yellow;
+  color: yellow;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.apple {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cross {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  float: right;
+  bottom: 33px;
+  left: 15px;
+}
+
+.container4 {
+  padding: 100px 80px 100px 80px;
+  display:grid;
+  grid-template-areas: 'myArea3 myArea4 myArea5'
+  'myArea6 myArea7 myArea8'
+  'myArea9 myArea10 myArea10';
+  gap: 15px;
+}
+
+
+
+#sqr3 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
+  border-radius: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  grid-area: myArea3;
+  margin-top: 80px;
+}
+
+.top {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  bottom: 45px;
+}
+
+.ios {
+  width: 15%;
+}
+
+.Beta {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 20px;
+}
+
+#sqr3-1 {
+  width: 90px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 50px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px 5px 5px 5px;
+  margin-top: 20px;
+}
+
+.ios1 {
+  color: rgb(237, 208, 155);
+  margin: 3px -50px 3px -50px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+
+}
+
+.ios1-0 {
+  color: white;
+  margin: -17px 5px 0px 2px;
+  font-size: 13px;
+  font-family: sans-serif;
+
+}
+
+.ios1-2 {
+  color: white;
+  margin: 0px 5px 0px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#sqr3-2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: royalblue;
+  border-width: 1px;
+  border-style: none;
+  padding: 8px 8px 8px 10px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#sqr3-3 {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  border-width: 1px;
+  border-style: none;
+  color: royalblue;
+  font-family: sans-serif;
+  padding: 8px 8px 8px 10px;
+  margin-left: 10px;
+}
+
+.iphone3 {
+  width: 100%;
+  margin-top: 35px;
+}
+
+
+
+#sqr4 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; 
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea4;
+  margin-top: 80px;
+
+}
+
+#sqr4-1 {
+  width: 120px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 80px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+}
+
+.ios2 {
+  color: rgb(118, 158, 226);
+  margin: 7px -72px 7px -72px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.ios2-1 {
+  color: white;
+  margin: -22.5px 5px -22.5px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.iphone4 {
+  width: 100%;
+  margin-top: 35px;
+}
+
+
+
+#sqr5 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; 
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea5;
+  margin-top: 80px;
+
+}
+
+.ios3 {
+  color: rgb(200, 237, 144);
+  margin: 7px -72px 7px -72px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#sqr4-2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: royalblue;
+  border-width: 1px;
+  border-style: none;
+  padding: 8px 8px 8px 10px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.iphone5 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+#sqr6 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
+  border-radius: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: myArea6;
+  margin-top: 80px;
+}
+
+.Beta {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+.ios4 {
+  color: pink;
+  margin: 7px -73px 7px -73px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.ios1-1 {
+  color: white;
+  margin: -22.5px 5px -22.5px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.ios1-2 {
+  color: white;
+  margin: 0px 5px 0px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+#sqr7 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
+  border-radius: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: myArea7;
+  margin-top: 80px;
+
+}
+
+#sqr5-1 {
+  width: 95px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 60px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+}
+
+.ios5 {
+  color: rgb(255, 198, 255);
+  margin: 7px -55px 7px -55px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.ios2-1 {
+  color: white;
+  margin: -22.5px 5px -22.5px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.iphone6 {
+  width: 100%;
+  margin-top: 35px;
+}
+
+
+
+#sqr8 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea8;
+  margin-top: 80px;
+
+}
+
+.ios6 {
+  color: pink;
+  margin: 7px -72px 7px -72px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+#sqr9 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
+  border-radius: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  grid-area: myArea9;
+}
+
+.ios9 {
+  color: rgb(211, 25, 56);
+  margin: 7px -55px 7px -55px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#sqr5-2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  border-width: 1px;
+  border-style: none;
+  color: royalblue;
+  font-family: sans-serif;
+  padding: 8px 5px 8px 5px;
+  margin-top: 20px;
+}
+
+
+#sqr10 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  margin-top: 80px;
+  grid-area: myArea10;
+
+}
+
+#sqr6-2 {
+  width: 90px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  border-width: 1px;
+  border-style: none;
+  color: royalblue;
+  font-family: sans-serif;
+  padding: 7px 10px 7px 10px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.ios8 {
+  color: rgb(16, 91, 152);
+  margin: 7px -70px 7px -70px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+.container5 {
+  padding: 100px 80px 100px 80px;
+  display:grid;
+  grid-template-areas:'myArea11 myArea11 myArea11';
+  grid-gap: 10px;
+}
+
+
+
+#sqr11 {
+  width: 1100px;
+  height: 250px;
+  border-radius: 30px;
+  padding: 50px 50px 50px 50px;
+  background-color: #222222;
+  background-image: url(img/donate-image-2x.webp);
+  background-size: 650px;
+  background-repeat: no-repeat;
+  background-position: 585px;
+  display: flex;
+  flex-direction: column;
+  grid-area: myArea11;
+}
+
+.working {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 105px;
+}
+
+.freee {
+  color: darkgrey;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-orientation: upright;
+  text-align: center;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.paypalll {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(56, 152, 248, 0.611);
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.payy {
+  width: 70px;
+  object-fit: cover;
+}
+
+.coffee {
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  background-color:  #df187851;
+  padding: 2px 5px 2px 5px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.cup {
+  width: 30px;
+}
+
+.buy {
+  color: #DF1877;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+
+
+.container6 {
+  padding: 100px 80px 100px 80px;
+  display:grid;
+  grid-template-areas:'myArea12 myArea13 myArea14'
+  'myArea15 myArea16 myArea17'
+  'myArea18 myArea18 myArea18';
+  grid-gap: 15px;
+}
+
+
+#sqr12 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
+  border-radius: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: myArea12;
+
+}
+
+
+#sqr6-1 {
+  width: 120px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 70px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+}
+
+
+
+.ios12 {
+  color: rgb(216, 165, 69);
+  margin: 7px -62px 7px -62px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+.ios1-1 {
+  color: white;
+  margin: -22.5px 5px -22.5px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.ios1-2 {
+  color: white;
+  margin: 0px 5px 0px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.iphone3 {
+  width: 100%;
+}
+
+
+
+#sqr13 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea13;
+
+}
+
+.ios13 {
+  color: rgb(181, 193, 242);
+  margin: 7px -83px 7px -83px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#sqr7-1 {
+  width: 140px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 90px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+}
+
+.ios2-1 {
+  color: white;
+  margin: -22.5px 5px -22.5px 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.iphone4 {
+  width: 100%;
+}
+
+
+
+#sqr14 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea14;
+
+}
+
+.ios14 {
+  color: rgb(0, 255, 213);
+  margin: 7px -85px 7px -85px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.iphone5 {
+  width: 100%;
+}
+
+
+
+
+#sqr15 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea15;
+  margin-top: 80px;
+
+}
+
+.ios15 {
+  color: rgb(252, 145, 247);
+  margin: 7px -82px 7px -82px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+#sqr16 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea16;
+  margin-top: 80px;
+
+}
+
+#sqr5-1 {
+  width: 95px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 60px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+}
+
+.ios16 {
+  color: rgb(242, 145, 75);
+  margin: 7px -65px 7px -65px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+#sqr17 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  grid-area: myArea17;
+  margin-top: 80px;
+
+}
+
+.ios17 {
+  color: rgb(251, 140, 159);
+  margin: 7px -85px 7px -85px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+#sqr18 {
+  width: 350px;
+  height: 550px;
+  background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
+  border-radius: 20px;
+  padding: 20px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  grid-area: myArea18;
+
+}
+
+#sqr8-1 {
+  width: 135px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border-width: 1px;
+  border-left-color: white;
+  border-left-width: 60px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 10px;
+}
+
+.ios7 {
+  color: rgb(212, 27, 233);
+  margin: 7px -55px 7px -55px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#sqr5-3 {
+  width: 110px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: royalblue;
+  border-width: 1px;
+  border-style: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 7px 8px 7px 10px;
+  margin-top: 20px;
+}
+
+
+
+footer {
+  background-color: #1f1f1f;
+  width: 100%;
+  margin: 50px 0px 0px 0px;
+  padding: 20px 100px 100px 100px;
+  display: grid;
+  grid-template-areas: 'con1 con2'
+  'con3 con3'
+  'con4 con5'
+  'con6 con6';
+  grid-gap: 10px;
+}
+
+.container8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-area: con1;
+}
+
+.img15 {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.free {
+  margin-top: 20px; 
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+
+}
+
+.twit {
+  width: 40px;
+  margin-bottom: 20px;
+
+}
+
+.face {
+  width: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+}
+
+.container9 {
+  width: 100%;
+  grid-area: con2;
+  margin-top: 50px;
+}
+
+.wordings {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.pay11 {
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pay {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.pay1 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;  
+  margin-bottom: 5px;
+}
+
+.pay2 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+
+.explore11 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.explore {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.explore1 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.explore2 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.explore3 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.explore4 {
+  color: rgb(206, 206, 206);
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.learn11 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.learn {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.learn1 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.learn2 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.learn3 {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+.learn4 {
+  color: rgb(206, 206, 206);
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+hr {
+  width: 100%;
+  opacity: 0.25;
+  grid-area: con3;
+
+}
+
+
+.container10 {
+  width: 100%;
+  grid-area: con4;
+}
+
+.carrr {
+  float: left;
+}
+
+
+.car {
+  margin: 30px 0px 0px 0px; 
+  color: grey;
+  font-family: sans-serif;
+  font-size: 14px;
+} 
+
+
+.container11 {
+  width: 100%;
+  grid-area: con5;
+}
+
+.legalll {
+  float: right;
+}
+
+.legal {
+  margin: 30px 0px 10px 0px; 
+  color: rgb(213, 213, 213);
+  font-family: sans-serif;
+  font-size: 14px;
+} 
+
+
+.this {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 12px;
+} 
 
 } 
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1199px) {
   body {
@@ -2613,34 +2660,7 @@ hr {
     width: 100%;
   }
   
-  .icons1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-    width: 60px;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .icon-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  
-  }
-  
-  .label1, .label2, .label3, .label4, .label5, .label6 {
-    color: white;
-    margin: 10px 23px 10px 35px;
-    font-size: 14px;
-    font-family: sans-serif;
-  }
+
   
   
   .container2 {
@@ -2859,7 +2879,7 @@ hr {
   }
   
   .iphone3 {
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
   }
   
@@ -2908,7 +2928,7 @@ hr {
   }
   
   .iphone4 {
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
   }
   
@@ -2951,7 +2971,7 @@ hr {
   }
   
   .iphone5 {
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
   }
   
@@ -3047,7 +3067,7 @@ hr {
   }
   
   .iphone6 {
-    width: 400px;
+    width: 70%;
   }
   
   
@@ -3293,7 +3313,7 @@ hr {
   }
   
   .iphone3 {
-    width: 400px;
+    width: 70%;
   }
   
   
@@ -3339,7 +3359,7 @@ hr {
   }
   
   .iphone4 {
-    width: 400px;
+    width: 70%;
   }
   
   
@@ -3366,7 +3386,7 @@ hr {
   }
   
   .iphone5 {
-    width: 400px;
+    width: 70%;
   }
   
   
@@ -3512,7 +3532,7 @@ hr {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 50px 100px 50px;
+    padding: 20px 80px 100px 80px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -3738,9 +3758,1240 @@ hr {
     font-family: sans-serif;
     font-size: 12px;
   } 
-}
+} 
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1024px) {
+body {
+    background-color: #111111;
+    width: 100%;
+  }
+  
+  header {
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+    width: 100%;
+    padding: 12px 100px 12px 100px;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .iconn {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .img {
+    width: 150px;
+  }
+  
+  .img1 {
+    width: 18px;
+    margin: 4px 8px 4px 8px;
+  }
+  
+  .box1 {
+    background-color: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 2px;
+    padding: 2px 2px 2px 2px;
+  }
+  
+  .box1:hover {
+    background-color: grey;
+  }
+  
+  .donate {
+    color:  rgba(221, 25, 110, 0.936);
+    font-family: sans-serif;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  .img2 {
+    width: 15px;
+    margin: 3px 3px 3px 5px;
+  }
+  
+  
+  .iconnn {
+    width: 100%;
+  }
+  
+  .icons {
+    float: right;
+    display:table;
+  }
+  
+  .img3, .img4, .img5, .img6, .img7 {
+    width: 17px;
+    margin: 5px 10px 5px 10px;
+  }
+  
+  .container {
+    background-image: url(img/wwdc22-dark-desktop.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    background-color: #111111;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: sans-serif;
+  }
+  
+  h4 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 350;
+    font-family: sans-serif;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  
+  .container1 {
+    padding: 0px 30px 0px 30px;
+    width: 100%;
+  }
+
+  
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .support {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+
+  .questionss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .frequent {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+  }
+  
+  .arrow {
+    width: 20px;
+  }
+  
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 80px;
+  }
+  
+  #sqr {
+    width: 800px;
+    height: 38px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(70, 131, 180, 0.14);
+    border-color:steelblue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-left-width: 7px;
+    border-left-color: steelblue;
+    color: steelblue;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+  
+  #sqr1 {
+    width: 800px;
+    height: 38px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 0px 30px 0px;
+    background-color: rgba(255, 255, 0, 0.14);
+    border-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-left-width: 7px;
+    border-left-color: yellow;
+    color: yellow;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+  
+  .apple {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .cross {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    float: right;
+    bottom: 33px;
+    left: 15px;
+  }
+  
+  .container4 {
+    padding: 100px 0px 100px 0px;
+    display:grid;
+    grid-template-areas: 'myArea3 myArea4'
+    'myArea5 myArea6'
+    'myArea7 myArea8'
+    'myArea9 myArea10';
+    grid-gap: 20px;
+  }
+  
+  
+  
+  #sqr3 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    grid-area: myArea3;
+    margin-top: 80px;
+  }
+  
+  .top {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+  }
+  
+  .ios {
+    width: 70px;
+  }
+  
+  .Beta {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 20px;
+  }
+  
+  #sqr3-1 {
+    width: 90px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 50px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    margin-top: 20px;
+  }
+  
+  .ios1 {
+    color: rgb(237, 208, 155);
+    margin: 3px -50px 3px -50px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  
+  }
+  
+  .ios1-0 {
+    color: white;
+    margin: -17px 5px 0px 2px;
+    font-size: 13px;
+    font-family: sans-serif;
+  
+  }
+  
+  .ios1-2 {
+    color: white;
+    margin: 0px 5px 0px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .cont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  #sqr3-2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: royalblue;
+    border-width: 1px;
+    border-style: none;
+    padding: 8px 8px 8px 10px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #sqr3-3 {
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    border-width: 1px;
+    border-style: none;
+    color: royalblue;
+    font-family: sans-serif;
+    padding: 8px 8px 8px 10px;
+    margin-left: 10px;
+  }
+  
+  .iphone3 {
+    width: 70%;
+    margin-top: 20px;
+  }
+  
+  
+  
+  #sqr4 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea4;
+    margin-top: 80px;
+  
+  }
+  
+  #sqr4-1 {
+    width: 120px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 80px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+  
+  .ios2 {
+    color: rgb(118, 158, 226);
+    margin: 7px -72px 7px -72px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .ios2-1 {
+    color: white;
+    margin: -22.5px 5px -22.5px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  
+  .iphone4 {
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  #sqr5 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea5;
+    margin-top: 80px;
+  
+  }
+  
+  .ios3 {
+    color: rgb(200, 237, 144);
+    margin: 7px -72px 7px -72px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  #sqr4-2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: royalblue;
+    border-width: 1px;
+    border-style: none;
+    padding: 8px 8px 8px 10px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+  }
+  
+  .iphone5 {
+    width: 70%;
+    margin-top: 20px;
+  }
+  
+  
+  
+  #sqr6 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: myArea6;
+    margin-top: 80px;
+  }
+  
+  .Beta {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 10px;
+  }
+  
+  .ios4 {
+    color: pink;
+    margin: 7px -73px 7px -73px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .ios1-1 {
+    color: white;
+    margin: -22.5px 5px -22.5px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  
+  .ios1-2 {
+    color: white;
+    margin: 0px 5px 0px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  
+  
+  #sqr7 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: myArea7;
+    margin-top: 80px;
+  
+  }
+  
+  #sqr5-1 {
+    width: 95px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 60px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+  
+  .ios5 {
+    color: rgb(255, 198, 255);
+    margin: 7px -55px 7px -55px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .ios2-1 {
+    color: white;
+    margin: -22.5px 5px -22.5px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  
+  .iphone6 {
+    width: 70%;
+  }
+  
+  
+  
+  #sqr8 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea8;
+    margin-top: 80px;
+  
+  }
+  
+  .ios6 {
+    color: pink;
+    margin: 7px -72px 7px -72px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  #sqr9 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    grid-area: myArea9;
+  }
+  
+  .ios9 {
+    color: rgb(211, 25, 56);
+    margin: 7px -55px 7px -55px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  #sqr5-2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    border-width: 1px;
+    border-style: none;
+    color: royalblue;
+    font-family: sans-serif;
+    padding: 8px 5px 8px 5px;
+    margin-top: 20px;
+  }
+  
+  
+  #sqr10 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    margin-top: 80px;
+    grid-area: myArea10;
+  }
+  
+
+  #sqr6-2 {
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    border-width: 1px;
+    border-style: none;
+    color: royalblue;
+    font-family: sans-serif;
+    padding: 7px 10px 7px 10px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .ios8 {
+    color: rgb(16, 91, 152);
+    margin: 7px -70px 7px -70px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  .container5 {
+    padding: 100px 0px 100px 0px;
+    display:grid;
+    grid-template-areas:'myArea11 myArea11 myArea11';
+    gap: 10px;
+  }
+  
+  
+  
+  #sqr11 {
+    width: 800px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 50px 10px 50px 50px;
+    background-color: #222222;
+    background-image: url(img/donate-image-2x.webp);
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-position: 490px;
+    display: flex;
+    flex-direction: column;
+    grid-area: myArea11;
+  }
+  
+  .working {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  
+  .freee {
+    color: darkgrey;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-orientation: upright;
+    text-align: center;
+    width: 40%;
+    margin-top: 10px;
+  }
+  
+  .paypalll {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(56, 152, 248, 0.611);
+    padding: 0px 10px 0px 10px;
+    display: flex;
+  }
+  
+  .payy {
+    width: 70px;
+    object-fit: cover;
+  }
+  
+  .coffee {
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #df187851;
+    padding: 2px 5px 2px 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cup {
+    width: 30px;
+  }
+  
+  .buy {
+    color: #DF1877;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 6px;
+  }
+
+  
+  .container6 {
+    padding: 100px 0px 100px 0px;
+    display:grid;
+    grid-template-areas:'myArea12 myArea13'
+    'myArea14 myArea15'
+    'myArea16 myArea17'
+    'myArea18 myArea18';
+    grid-gap: 20px;
+  }
+  
+  
+  #sqr12 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: myArea12;
+  
+  }
+  
+  
+  #sqr6-1 {
+    width: 120px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 70px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+   
+  
+  .ios12 {
+    color: rgb(216, 165, 69);
+    margin: 7px -62px 7px -62px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  .ios1-1 {
+    color: white;
+    margin: -22.5px 5px -22.5px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  
+  .ios1-2 {
+    color: white;
+    margin: 0px 5px 0px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .iphone3 {
+    width: 70%;
+  }
+  
+  
+  
+  #sqr13 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea13;
+  }
+  
+  .ios13 {
+    color: rgb(181, 193, 242);
+    margin: 7px -83px 7px -83px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  #sqr7-1 {
+    width: 140px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 90px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+  
+  .ios2-1 {
+    color: white;
+    margin: -22.5px 5px -22.5px 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  
+  .iphone4 {
+    width: 70%;
+  }
+  
+  
+  
+  #sqr14 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea14;
+    margin-top: 80px;
+  }
+  
+  .ios14 {
+    color: rgb(0, 255, 213);
+    margin: 7px -85px 7px -85px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .iphone5 {
+    width: 70%;
+  }
+  
+  
+  
+  
+  #sqr15 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea15;
+    margin-top: 80px;
+  
+  }
+  
+  .ios15 {
+    color: rgb(252, 145, 247);
+    margin: 7px -82px 7px -82px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  #sqr16 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea16;
+    margin-top: 80px;
+  }
+  
+  #sqr5-1 {
+    width: 95px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 60px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+  
+  .ios16 {
+    color: rgb(242, 145, 75);
+    margin: 7px -65px 7px -65px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  #sqr17 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    grid-area: myArea17;
+    margin-top: 80px;
+  
+  }
+  
+  .ios17 {
+    color: rgb(251, 140, 159);
+    margin: 7px -85px 7px -85px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  #sqr18 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
+    border-radius: 20px;
+    padding: 20px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    grid-area: myArea18;
+  
+  }
+  
+
+  #sqr8-1 {
+    width: 135px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 1px;
+    border-left-color: white;
+    border-left-width: 60px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+  }
+  
+  .ios7 {
+    color: rgb(212, 27, 233);
+    margin: 7px -55px 7px -55px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  #sqr5-3 {
+    width: 110px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: royalblue;
+    border-width: 1px;
+    border-style: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 7px 8px 7px 10px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  footer {
+    background-color: #1f1f1f;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 20px 100px 100px 100px;
+    display: grid;
+    grid-template-areas: 'con1 con2'
+    'con3 con3'
+    'con4 con5'
+    'con6 con6';
+    grid-gap: 10px;
+  }
+  
+  .container8 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-area: con1;
+  }
+  
+  .img15 {
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  
+  .free {
+    margin-top: 20px; 
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 60%;
+  }
+  
+  .twit {
+    width: 40px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .face {
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .container9 {
+    width: 100%;
+    grid-area: con2;
+    margin-top: 50px;
+  }
+  
+  .wordings {
+    float: right;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pay11 {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .pay {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .pay1 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;  
+    margin-bottom: 5px;
+  }
+  
+  .pay2 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  
+  .explore11 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .explore {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .explore1 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .explore2 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .explore3 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .explore4 {
+    color: rgb(206, 206, 206);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .learn11 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .learn {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .learn1 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .learn2 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .learn3 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .learn4 {
+    color: rgb(206, 206, 206);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+  
+  }
+  
+  hr {
+    width: 100%;
+    opacity: 0.25;
+    grid-area: con3;
+  
+  }
+  
+  
+  .container10 {
+    width: 100%;
+    grid-area: con4;
+  }
+  
+  .carrr {
+    float: left;
+  }
+  
+  
+  .car {
+    margin: 30px 0px 0px 0px; 
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+  } 
+  
+  
+  .container11 {
+    width: 100%;
+    grid-area: con5;
+  }
+  
+  .legalll {
+    float: right;
+  }
+  
+  .legal {
+    margin: 30px 0px 10px 0px; 
+    color: rgb(213, 213, 213);
+    font-family: sans-serif;
+    font-size: 14px;
+  } 
+  
+  
+  .this {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+  } 
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
 body {
     background-color: #111111;
     width: 100%;
@@ -3856,36 +5107,7 @@ body {
     padding: 0px 30px 0px 30px;
     width: 100%;
   }
-  
-  .icons1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-    width: 60px;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .icon-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  
-  }
-  
-  .label1, .label2, .label3, .label4, .label5, .label6 {
-    color: white;
-    margin: 10px 23px 10px 35px;
-    font-size: 14px;
-    font-family: sans-serif;
-  }
-  
+
   
   .container2 {
     display: flex;
@@ -3937,7 +5159,7 @@ body {
   }
   
   #sqr {
-    width: 1000px;
+    width: 800px;
     height: 38px;
     padding: 10px 10px 10px 10px;
     background-color: rgba(70, 131, 180, 0.14);
@@ -3953,7 +5175,7 @@ body {
   }
   
   #sqr1 {
-    width: 1000px;
+    width: 800px;
     height: 38px;
     padding: 10px 10px 10px 10px;
     margin: 15px 0px 30px 0px;
@@ -3992,14 +5214,14 @@ body {
     'myArea5 myArea6'
     'myArea7 myArea8'
     'myArea9 myArea10';
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
   
   
   
   #sqr3 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
@@ -4106,15 +5328,15 @@ body {
   }
   
   .iphone3 {
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
   }
   
   
   
   #sqr4 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
     border-radius: 20px;
     display: flex;
@@ -4162,8 +5384,8 @@ body {
   
   
   #sqr5 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
     border-radius: 20px;
     display: flex;
@@ -4198,15 +5420,15 @@ body {
   }
   
   .iphone5 {
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
   }
   
   
   
   #sqr6 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
@@ -4252,8 +5474,8 @@ body {
   
   
   #sqr7 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
@@ -4294,14 +5516,14 @@ body {
   }
   
   .iphone6 {
-    width: 400px;
+    width: 70%;
   }
   
   
   
   #sqr8 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
     border-radius: 20px;
     display: flex;
@@ -4325,8 +5547,8 @@ body {
   
   
   #sqr9 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
@@ -4360,8 +5582,8 @@ body {
   
   
   #sqr10 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
     border-radius: 20px;
     display: flex;
@@ -4406,7 +5628,7 @@ body {
   
   
   #sqr11 {
-    width: 980px;
+    width: 800px;
     height: 250px;
     border-radius: 30px;
     padding: 50px 10px 50px 50px;
@@ -4481,13 +5703,13 @@ body {
     'myArea14 myArea15'
     'myArea16 myArea17'
     'myArea18 myArea18';
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
   
   
   #sqr12 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
@@ -4495,7 +5717,6 @@ body {
     flex-direction: column;
     align-items: center;
     grid-area: myArea12;
-  
   }
   
   
@@ -4540,14 +5761,14 @@ body {
   }
   
   .iphone3 {
-    width: 400px;
+    width: 70%;
   }
   
   
   
   #sqr13 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
     border-radius: 20px;
     display: flex;
@@ -4586,14 +5807,14 @@ body {
   }
   
   .iphone4 {
-    width: 400px;
+    width: 70%;
   }
   
   
   
   #sqr14 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
     border-radius: 20px;
     display: flex;
@@ -4613,15 +5834,15 @@ body {
   }
   
   .iphone5 {
-    width: 400px;
+    width: 70%;
   }
   
   
   
   
   #sqr15 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
     border-radius: 20px;
     display: flex;
@@ -4645,8 +5866,8 @@ body {
   
   
   #sqr16 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
     border-radius: 20px;
     display: flex;
@@ -4682,8 +5903,8 @@ body {
   
   
   #sqr17 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
     border-radius: 20px;
     display: flex;
@@ -4706,8 +5927,8 @@ body {
   
   
   #sqr18 {
-    width: 480px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
     border-radius: 20px;
     padding: 20px 10px 0px 10px;
@@ -4759,7 +5980,7 @@ body {
     background-color: #1f1f1f;
     width: 100%;
     margin: 50px 0px 0px 0px;
-    padding: 20px 50px 100px 50px;
+    padding: 20px 100px 100px 100px;
     display: grid;
     grid-template-areas: 'con1 con2'
     'con3 con3'
@@ -4985,1246 +6206,13 @@ body {
     font-family: sans-serif;
     font-size: 12px;
   } 
-}
+} 
 
-@media only screen and (max-width: 992px) {
-  body {
-    background-color: #111111;
-    width: 100%;
-  }
-  
-   header {
-    background-color: rgb(27, 27, 27);
-    height: 50px;
-    width: 100%;
-    padding: 12px 50px 12px 50px;
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  .iconn {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .img {
-    width: 150px;
-  }
-  
-  .img1 {
-    width: 18px;
-    margin: 4px 8px 4px 8px;
-  }
-  
-  .box1 {
-    background-color: none;
-    border-radius: 10px;
-    width: 120px;
-    height: 28px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 2px;
-    padding: 2px 2px 2px 2px;
-  }
-  
-  .box1:hover {
-    background-color: grey;
-  }
-  
-  .donate {
-    color:  rgba(221, 25, 110, 0.936);
-    font-family: sans-serif;
-    margin: 5px 0px 5px 0px;
-  }
-  
-  .img2 {
-    width: 15px;
-    margin: 3px 3px 3px 5px;
-  }
-  
-  
-  .iconnn {
-    width: 100%;
-  }
-  
-  .icons {
-    float: right;
-    display:table;
-  }
-  
-  .img3, .img4, .img5, .img6, .img7 {
-    width: 17px;
-    margin: 5px 10px 5px 10px;
-  }
-  
-  .container {
-    background-image: url(img/wwdc22-dark-desktop.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 650px;
-    width: 100%;
-    background-color: #111111;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  
-  h1 {
-    color: white;
-    text-align: center;
-    font-size: 55px;
-    font-family: sans-serif;
-  }
-  
-  h4 {
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 350;
-    font-family: sans-serif;
-    margin: 10px 0px 10px 0px;
-  }
-  
-  
-  .container1 {
-    padding: 0px 30px 0px 30px;
-    width: 100%;
-  }
-  
-  .icons1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-    width: 60px;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .icon-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  
-  }
-  
-  .label1, .label2, .label3, .label4, .label5, .label6 {
-    color: white;
-    margin: 10px 23px 10px 35px;
-    font-size: 14px;
-    font-family: sans-serif;
-  }
-  
-  
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .questions {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-  }
-  
-  .support {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
 
-  .questionss {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-  }
-  
-  .frequent {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-    margin-left: 50px;
-  }
-  
-  .arrow {
-    width: 20px;
-  }
 
-  
-  .container3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-    margin-top: 80px;
-  }
-  
-  #sqr {
-    width: 950px;
-    height: 38px;
-    padding: 10px 10px 10px 10px;
-    background-color: rgba(70, 131, 180, 0.14);
-    border-color:steelblue;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    border-left-width: 7px;
-    border-left-color: steelblue;
-    color: steelblue;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
-  
-  #sqr1 {
-    width: 950px;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
-    margin: 15px 0px 30px 0px;
-    background-color: rgba(255, 255, 0, 0.14);
-    border-color: yellow;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    border-left-width: 7px;
-    border-left-color: yellow;
-    color: yellow;
-    font-family: sans-serif;
-    font-weight: 300;
-  }
-  
-  .apple {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .cross {
-    display: none;
-  }
 
-  .container4 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas: 'myArea3 myArea4'
-    'myArea5 myArea6'
-    'myArea7 myArea8'
-    'myArea9 myArea10';
-    grid-gap: 10px;
-  }
-  
-  
-  
-  #sqr3 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    grid-area: myArea3;
-    margin-top: 80px;
-  }
-  
-  .top {
-    color: white;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 500;
-    text-align: center;
-    position: relative;
-    bottom: 45px;
-  }
-  
-  .ios {
-    width: 70px;
-  }
-  
-  .Beta {
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 550;
-    margin-top: 20px;
-  }
-  
-  #sqr3-1 {
-    width: 90px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 50px;
-    border-style: solid;
-    border-color: white;
-    padding: 5px 5px 5px 5px;
-    margin-top: 20px;
-  }
-  
-  .ios1 {
-    color: rgb(237, 208, 155);
-    margin: 3px -50px 3px -50px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  
-  }
-  
-  .ios1-0 {
-    color: white;
-    margin: -17px 5px 0px 2px;
-    font-size: 13px;
-    font-family: sans-serif;
-  
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  .cont {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-  }
-  
-  #sqr3-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    padding: 8px 8px 8px 10px;
-    font-size: 14px;
-    color: white;
-    font-family: sans-serif;
-  }
-  
-  #sqr3-3 {
-    width: 60px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 8px 8px 8px 10px;
-    margin-left: 10px;
-  }
-  
-  .iphone3 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr4 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea4;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr4-1 {
-    width: 120px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 80px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios2 {
-    color: rgb(118, 158, 226);
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone4 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr5 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea5;
-    margin-top: 80px;
-  
-  }
-  
-  .ios3 {
-    color: rgb(200, 237, 144);
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr4-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    padding: 8px 8px 8px 10px;
-    font-size: 14px;
-    color: white;
-    font-family: sans-serif;
-    margin-top: 20px;
-  }
-  
-  .iphone5 {
-    width: 400px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  #sqr6 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea6;
-    margin-top: 80px;
-  }
-  
-  .Beta {
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 550;
-    margin-top: 10px;
-  }
-  
-  .ios4 {
-    color: pink;
-    margin: 7px -73px 7px -73px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios1-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  
-  
-  #sqr7 {
-    width: 480px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea7;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr5-1 {
-    width: 95px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios5 {
-    color: rgb(255, 198, 255);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone6 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr8 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea8;
-    margin-top: 80px;
-  
-  }
-  
-  .ios6 {
-    color: pink;
-    margin: 7px -72px 7px -72px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  
-  #sqr9 {
-    width: 480px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea9;
-  }
-  
-  .ios9 {
-    color: rgb(211, 25, 56);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr5-2 {
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 8px 5px 8px 5px;
-    margin-top: 20px;
-  }
-  
-  
-  #sqr10 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea10;
-  
-  }
-  
-  #sqr6-2 {
-    width: 90px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: white;
-    border-width: 1px;
-    border-style: none;
-    color: royalblue;
-    font-family: sans-serif;
-    padding: 7px 10px 7px 10px;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
-  .ios8 {
-    color: rgb(16, 91, 152);
-    margin: 7px -70px 7px -70px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  .container5 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas:'myArea11 myArea11 myArea11';
-    gap: 10px;
-  }
-  
-  
-  
-  #sqr11 {
-    width: 960px;
-    height: 250px;
-    border-radius: 30px;
-    padding: 50px 10px 50px 50px;
-    background-color: #222222;
-    background-image: url(img/donate-image-2x.webp);
-    background-size: 650px;
-    background-repeat: no-repeat;
-    background-position: 490px;
-    display: flex;
-    flex-direction: column;
-    grid-area: myArea11;
-  }
-  
-  .working {
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-  }
-  
-  .freee {
-    color: darkgrey;
-    font-family: sans-serif;
-    font-size: 12px;
-    text-align: center;
-    width: 40%;
-    margin-top: 10px;
-  }
-  
-  .paypalll {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgba(56, 152, 248, 0.611);
-    padding: 0px 10px 0px 10px;
-    display: flex;
-  }
-  
-  .payy {
-    width: 70px;
-    object-fit: cover;
-  }
-  
-  .coffee {
-    width: 140px;
-    height: 30px;
-    border-radius: 5px;
-    background-color:  #df187851;
-    padding: 2px 5px 2px 5px;
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  .cup {
-    width: 30px;
-  }
-  
-  .buy {
-    color: #DF1877;
-    font-family: sans-serif;
-    font-size: 13px;
-    margin-top: 6px;
-  }
-  
-  
-  
-  .container6 {
-    padding: 100px 0px 100px 0px;
-    display:grid;
-    grid-template-areas:'myArea12 myArea13'
-    'myArea14 myArea15'
-    'myArea16 myArea17'
-    'myArea18 myArea18';
-    grid-gap: 10px;
-  }
-  
-  
-  #sqr12 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
-    border-radius: 20px;
-    padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: myArea12;
-  
-  }
-  
-  
-  #sqr6-1 {
-    width: 120px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 70px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  
-  
-  .ios12 {
-    color: rgb(216, 165, 69);
-    margin: 7px -62px 7px -62px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  .ios1-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .ios1-2 {
-    color: white;
-    margin: 0px 5px 0px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .iphone3 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr13 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea13;
-  }
-  
-  .ios13 {
-    color: rgb(181, 193, 242);
-    margin: 7px -83px 7px -83px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr7-1 {
-    width: 140px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 90px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios2-1 {
-    color: white;
-    margin: -22.5px 5px -22.5px 5px;
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-  
-  .iphone4 {
-    width: 400px;
-  }
-  
-  
-  
-  #sqr14 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea14;
-    margin-top: 80px;
-  }
-  
-  .ios14 {
-    color: rgb(0, 255, 213);
-    margin: 7px -85px 7px -85px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .iphone5 {
-    width: 400px;
-  }
-  
-  
-  
-  
-  #sqr15 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea15;
-    margin-top: 80px;
-  
-  }
-  
-  .ios15 {
-    color: rgb(252, 145, 247);
-    margin: 7px -82px 7px -82px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  
-  #sqr16 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea16;
-    margin-top: 80px;
-  
-  }
-  
-  #sqr5-1 {
-    width: 95px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios16 {
-    color: rgb(242, 145, 75);
-    margin: 7px -65px 7px -65px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  #sqr17 {
-    width: 470px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    grid-area: myArea17;
-    margin-top: 80px;
-  
-  }
-  
-  .ios17 {
-    color: rgb(251, 140, 159);
-    margin: 7px -85px 7px -85px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  
-  
-  #sqr18 {
-    width: 480px;
-    height: 600px;
-    background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
-    border-radius: 20px;
-    padding: 20px 10px 0px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    grid-area: myArea18;
-  
-  }
-  
-  #sqr8-1 {
-    width: 135px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 3px;
-    border-width: 1px;
-    border-left-color: white;
-    border-left-width: 60px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 20px;
-  }
-  
-  .ios7 {
-    color: rgb(212, 27, 233);
-    margin: 7px -55px 7px -55px;
-    font-size: 13px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  #sqr5-3 {
-    width: 110px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: royalblue;
-    border-width: 1px;
-    border-style: none;
-    color: white;
-    font-family: sans-serif;
-    padding: 7px 8px 7px 10px;
-    margin-top: 20px;
-  }
-  
-  
-  
-  footer {
-    background-color: #1f1f1f;
-    width: 100%;
-    margin: 50px 0px 0px 0px;
-    padding: 20px 50px 100px 50px;
-    display: grid;
-    grid-template-areas: 'con1 con2'
-    'con3 con3'
-    'con4 con5'
-    'con6 con6';
-    grid-gap: 10px;
-  }
-  
-  .container8 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-area: con1;
-  }
-  
-  .img15 {
-    width: 250px;
-    height: 60px;
-    margin-top: 20px;
-  }
-  
-  .free {
-    margin-top: 20px; 
-    color: grey;
-    font-family: sans-serif;
-    font-size: 12px;
-  
-  }
-  
-  .twit {
-    width: 40px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .face {
-    width: 40px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .container9 {
-    width: 100%;
-    grid-area: con2;
-    margin-top: 50px;
-  }
-  
-  .wordings {
-    float: right;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .pay11 {
-    display:flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  .pay {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .pay1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;  
-    margin-bottom: 5px;
-  }
-  
-  .pay2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  
-  .explore11 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 50px;
-  }
-  
-  .explore {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore3 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .explore4 {
-    color: rgb(206, 206, 206);
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn11 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 50px;
-  }
-  
-  .learn {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn1 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn2 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn3 {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  .learn4 {
-    color: rgb(206, 206, 206);
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  
-  hr {
-    width: 100%;
-    opacity: 0.25;
-    grid-area: con3;
-  
-  }
-  
-  
-  .container10 {
-    width: 100%;
-    grid-area: con4;
-  }
-  
-  .carrr {
-    float: left;
-  }
-  
-  
-  .car {
-    margin: 30px 0px 0px 0px; 
-    color: grey;
-    font-family: sans-serif;
-    font-size: 14px;
-  } 
-  
-  
-  .container11 {
-    width: 100%;
-    grid-area: con5;
-  }
-  
-  .legalll {
-    float: right;
-  }
-  
-  .legal {
-    margin: 30px 0px 10px 0px; 
-    color: rgb(213, 213, 213);
-    font-family: sans-serif;
-    font-size: 14px;
-  } 
-  
-  
-  .this {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 12px;
-  } 
-}
+
+
 
 @media only screen and (max-width: 834px) {
     body {
@@ -6236,7 +6224,7 @@ body {
       background-color: rgb(27, 27, 27);
       height: 50px;
       width: 100%;
-      padding: 12px 30px 12px 30px;
+      padding: 12px 70px 12px 70px;
     }
     
     nav {
@@ -6342,36 +6330,49 @@ body {
       padding: 0px 30px 0px 30px;
       width: 100%;
     }
-    
-    .icons1 {
+
+    .icons-label {
       display: flex;
-      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0px 50px;
+    }
+
+    .icl1, .icl2, .icl3, .icl4, .icl5, .icl6 {
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       width: 100%;
     }
-    
-    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-      width: 100%;
-      margin: 0px 30px 0px 30px;
-    }
-    
-    .icon-label {
+
+    .icon1, .icon2, .icon3, .icon5 {
+      width: 40%;
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    
+      margin-bottom: 10px;
     }
-    
-    .label1, .label2, .label3, .label4, .label5, .label6 {
+
+    .icon4, .icon6 {
+      width: 40%;
+      display: flex;
+    }
+
+
+
+    .label4, .label6 {
       color: white;
-      margin: 10px 5px 10px 40px;
-      font-size: 14px;
+      font-size: 12px;
       font-family: sans-serif;
-      width: 100%;
+      margin-top: 26px;
     }
+
+    .label1, .label2, .label3, .label5{
+      color: white;
+      font-size: 12px;
+      font-family: sans-serif;
+    }
+    
     
     
     .container2 {
@@ -6380,36 +6381,6 @@ body {
       width: 100%;
       align-items: center;
       justify-content: center;
-    }
-    
-    
-    .questions {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-    }
-    
-    .support {
-      color: white;
-      font-family: sans-serif;
-      font-weight: 300;
-
-    }
-
-    .questionss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-    }
-    
-    .frequent {
-      color: white;
-      font-family: sans-serif;
-      font-weight: 300;
-    }
-    
-    .arrow {
-      width: 20px;
     }
     
     
@@ -6467,7 +6438,7 @@ body {
     }
   
     .container4 {
-      padding: 100px 0px 100px 0px;
+      padding: 100px 30px 100px 30px;
       display:grid;
       grid-template-areas: 'myArea3 myArea4'
       'myArea5 myArea6'
@@ -6878,7 +6849,7 @@ body {
     
     
     .container5 {
-      padding: 100px 0px 100px 0px;
+      padding: 100px 30px 100px 30px;
       display:grid;
       grid-template-areas:'myArea11 myArea11 myArea11';
       gap: 10px;
@@ -6959,7 +6930,7 @@ body {
     
     
     .container6 {
-      padding: 100px 0px 100px 0px;
+      padding: 100px 30px 100px 30px;
       display:grid;
       grid-template-areas:'myArea12 myArea13'
       'myArea14 myArea15'
@@ -7031,7 +7002,7 @@ body {
     
     #sqr13 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
       border-radius: 20px;
       display: flex;
@@ -7077,7 +7048,7 @@ body {
     
     #sqr14 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
       border-radius: 20px;
       display: flex;
@@ -7105,7 +7076,7 @@ body {
     
     #sqr15 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
       border-radius: 20px;
       display: flex;
@@ -7130,7 +7101,7 @@ body {
     
     #sqr16 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
       border-radius: 20px;
       display: flex;
@@ -7167,7 +7138,7 @@ body {
     
     #sqr17 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
       border-radius: 20px;
       display: flex;
@@ -7243,7 +7214,7 @@ body {
       background-color: #1f1f1f;
       width: 100%;
       margin: 50px 0px 0px 0px;
-      padding: 20px 30px 100px 30px;
+      padding: 20px 80px 100px 80px;
       display: grid;
       grid-template-areas: 'con1 con2'
       'con3 con3'
@@ -7260,7 +7231,7 @@ body {
     }
     
     .img15 {
-      width: 250px;
+      width: 200px;
       height: 60px;
       margin-top: 20px;
     }
@@ -7469,9 +7440,16 @@ body {
       font-family: sans-serif;
       font-size: 12px;
     } 
-}
+} 
 
-@media only screen and (max-width: 480px) {
+
+
+
+
+
+
+
+@media only screen and (max-width: 540px) {
     body {
       background-color: #111111;
       width: 100%;
@@ -7555,39 +7533,46 @@ body {
       width: 100%;
     }
     
-    .icons1 {
+    .icons-label {
       display: flex;
-      flex-direction: row;
       align-items: center;
       justify-content: center;
       width: 100%;
-
-    }
-    
-    .icon1, .icon2, .icon4, .icon6 {
-      width: 100%;
-      margin: 0px 15px 0px 15px;
+      padding: 0px 0px;
     }
 
-    .icon3, .icon5, .label3, .label5 {
-      display: none;
-    }
-    
-    .icon-label {
+    .icl1, .icl2, .icl3, .icl4, .icl5, .icl6 {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       width: 100%;
-    
     }
-    
-    .label1, .label2, .label4, .label6 {
+
+    .icon1, .icon2, .icon3, .icon5 {
+      width: 50%;
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .icon4, .icon6 {
+      width: 50%;
+      display: flex;
+    }
+
+
+
+    .label4, .label6 {
       color: white;
-      margin: 10px 5px 10px 20px;
       font-size: 10px;
       font-family: sans-serif;
-      width: 100%;
+      margin-top: 26px;
+    }
+
+    .label1, .label2, .label3, .label5{
+      color: white;
+      font-size: 10px;
+      font-family: sans-serif;
     }
     
     
@@ -7597,6 +7582,7 @@ body {
       width: 100%;
       align-items: center;
       justify-content: center;
+
     }
     
     
@@ -7691,7 +7677,7 @@ body {
     
     #sqr3 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -7791,7 +7777,7 @@ body {
     }
     
     .iphone3 {
-      width: 100%;
+      width: 70%;
       margin-top: 20px;
     }
     
@@ -7799,7 +7785,7 @@ body {
     
     #sqr4 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
       border-radius: 20px;
       display: flex;
@@ -7838,7 +7824,7 @@ body {
     }
     
     .iphone4 {
-      width: 100%;
+      width: 70%;
       margin-top: 20px;
     }
     
@@ -7846,7 +7832,7 @@ body {
     
     #sqr5 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
       border-radius: 20px;
       display: flex;
@@ -7879,7 +7865,7 @@ body {
     }
     
     .iphone5 {
-      width: 100%;
+      width: 70%;
       margin-top: 20px;
     }
     
@@ -7887,7 +7873,7 @@ body {
     
     #sqr6 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -7933,7 +7919,7 @@ body {
     
     #sqr7 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -7972,14 +7958,14 @@ body {
     }
     
     .iphone6 {
-      width: 100%;
+      width: 70%;
     }
     
     
     
     #sqr8 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
       border-radius: 20px;
       display: flex;
@@ -7997,12 +7983,9 @@ body {
       font-weight: 600;
     }
     
-    
-    
-    
     #sqr9 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -8036,7 +8019,7 @@ body {
     
     #sqr10 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
       border-radius: 20px;
       display: flex;
@@ -8155,7 +8138,7 @@ body {
     
     #sqr12 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -8207,14 +8190,14 @@ body {
     }
     
     .iphone3 {
-      width: 100%;
+      width: 70%;
     }
     
     
     
     #sqr13 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
       border-radius: 20px;
       display: flex;
@@ -8253,14 +8236,14 @@ body {
     }
     
     .iphone4 {
-      width: 100%;
+      width: 70%;
     }
     
     
     
     #sqr14 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
       border-radius: 20px;
       display: flex;
@@ -8279,7 +8262,7 @@ body {
     }
     
     .iphone5 {
-      width: 100%;
+      width: 70%;
     }
     
     
@@ -8287,7 +8270,7 @@ body {
     
     #sqr15 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
       border-radius: 20px;
       display: flex;
@@ -8311,7 +8294,7 @@ body {
     
     #sqr16 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
       border-radius: 20px;
       display: flex;
@@ -8347,7 +8330,7 @@ body {
     
     #sqr17 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
       border-radius: 20px;
       display: flex;
@@ -8370,7 +8353,7 @@ body {
     
     #sqr18 {
       width: 100%;
-      height: 600px;
+      height: 550px;
       background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
       border-radius: 20px;
       padding: 20px 10px 0px 10px;
@@ -8640,4 +8623,1198 @@ body {
       text-align: center;
 
     } 
-}
+} 
+
+
+
+
+
+
+
+@media only screen and (max-width:390px) {
+    body {
+      background-color: #111111;
+      width: 100%;
+    }
+    
+     header {
+      background-color: rgb(27, 27, 27);
+      height: 50px;
+      width: 100%;
+      padding: 12px 20px 12px 20px;
+    }
+    
+    nav {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 10px 20px 10px;
+    }
+    
+    .iconn {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .img {
+      width: 150px;
+    }
+    
+    .img1 {
+      width: 18px;
+      margin: 4px 8px 4px 8px;
+    }
+    
+    .box1 {
+      display: none;
+    }
+    
+    .iconnn {
+      display: none;
+    }
+    
+    
+    .container {
+      background-image: url(img/wwdc22-dark-mobile.webp);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 650px;
+      width: 100%;
+      background-color: #111111;
+      padding: 20px 5px 5px 5px;
+    }
+    
+    
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+    }
+    
+    h4 {
+      color: white;
+      text-align: center;
+      font-size: 23px;
+      font-weight: 350;
+      font-family: sans-serif;
+      margin: 10px 0px 10px 0px;
+    }
+    
+    
+    .container1 {
+      padding: 0px 5px 0px 5px;
+      width: 100%;
+    }
+    
+    .icons-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0px 0px;
+    }
+
+    .icl1, .icl2, .icl3, .icl4, .icl5, .icl6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .icon1, .icon2, .icon3, .icon5 {
+      width: 50%;
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .icon4, .icon6 {
+      width: 50%;
+      display: flex;
+    }
+
+
+
+    .label4, .label6 {
+      color: white;
+      font-size: 6px;
+      font-family: sans-serif;
+      margin-top: 26px;
+    }
+
+    .label1, .label2, .label3, .label5{
+      color: white;
+      font-size: 6px;
+      font-family: sans-serif;
+    }
+    
+    
+    .container2 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+
+    }
+    
+    
+    .questions {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+    }
+    
+    .support {
+      color: white;
+      font-family: sans-serif;
+      font-weight: 300;
+    }
+
+    .questionss {
+      display: flex;
+      flex-direction: row;
+
+      margin-top: auto;
+    }
+    
+     .frequent {
+      color: white;
+      font-family: sans-serif;
+      font-weight: 300;
+    }
+    
+    .arrow {
+      width: 20px;
+    }
+    
+    .container3 {
+      display: block;
+      width: 100%;
+      align-items: center;
+      justify-items: center;
+      margin-top: 80px;
+      padding: 0px 5px 0px 5px;
+    }
+    
+    #sqr {
+      width: 100%;
+      height: 50px;
+      padding: 5px 5px 5px 5px;
+      background-color: rgba(70, 131, 180, 0.14);
+      border-color:steelblue;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px;
+      border-left-width: 7px;
+      border-left-color: steelblue;
+      color: steelblue;
+      font-family: sans-serif;
+      font-weight: 300;
+    }
+    
+    #sqr1 {
+      width: 100%;
+      height: 100%;
+      padding: 10px 5px 10px 5px;
+      margin: 15px 0px 30px 0px;
+      background-color: rgba(255, 255, 0, 0.14);
+      border-color: yellow;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px;
+      border-left-width: 7px;
+      border-left-color: yellow;
+      color: yellow;
+      font-family: sans-serif;
+      font-weight: 300;
+    }
+    
+    .apple {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .cross {
+      display: none;
+    }
+  
+    .container4 {
+      padding: 100px 0px 100px 0px;
+      width: 100%;
+      display: block;
+    }
+    
+    
+    
+    #sqr3 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(237, 208, 155), rgb(225, 151, 12));
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .top {
+      display: none;
+    }
+    
+    .ios {
+      width: 70px;
+    }
+    
+    .Beta {
+      color: white;
+      font-family: sans-serif;
+      font-size: 25px;
+      text-align: center;
+      font-weight: 550;
+      margin-top: 20px;
+    }
+    
+    #sqr3-1 {
+      width: 90px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 50px;
+      border-style: solid;
+      border-color: white;
+      padding: 5px 5px 5px 5px;
+      margin-top: 20px;
+    }
+    
+    .ios1 {
+      color: rgb(237, 208, 155);
+      margin: 3px -50px 3px -50px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    
+    }
+    
+    .ios1-0 {
+      color: white;
+      margin: -17px 5px 0px 2px;
+      font-size: 13px;
+      font-family: sans-serif;
+    
+    }
+    
+    .ios1-2 {
+      color: white;
+      margin: 0px 5px 0px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 20px;
+    }
+    
+    .cont {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+    }
+    
+    #sqr3-2 {
+      width: 100px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: royalblue;
+      border-width: 1px;
+      border-style: none;
+      padding: 8px 8px 8px 10px;
+      font-size: 14px;
+      color: white;
+      font-family: sans-serif;
+    }
+    
+    #sqr3-3 {
+      width: 60px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: white;
+      border-width: 1px;
+      border-style: none;
+      color: royalblue;
+      font-family: sans-serif;
+      padding: 8px 8px 8px 10px;
+      margin-left: 10px;
+    }
+    
+    .iphone3 {
+      width: 70%;
+      margin-top: 20px;
+    }
+    
+    
+    
+    #sqr4 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, powderblue, rgb(85, 85, 208));
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column; 
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    #sqr4-1 {
+      width: 120px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 80px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    .ios2 {
+      color: rgb(118, 158, 226);
+      margin: 7px -72px 7px -72px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    .ios2-1 {
+      color: white;
+      margin: -22.5px 5px -22.5px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+    
+    .iphone4 {
+      width: 70%;
+      margin-top: 20px;
+    }
+    
+    
+    
+    #sqr5 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(200, 237, 144), rgb(125, 165, 63));  
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column; 
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .ios3 {
+      color: rgb(200, 237, 144);
+      margin: 7px -72px 7px -72px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    #sqr4-2 {
+      width: 100px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: royalblue;
+      border-width: 1px;
+      border-style: none;
+      padding: 8px 8px 8px 10px;
+      font-size: 14px;
+      color: white;
+      font-family: sans-serif;
+      margin-top: 20px;
+    }
+    
+    .iphone5 {
+      width: 70%;
+      margin-top: 20px;
+    }
+    
+    
+    
+    #sqr6 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, pink, rgb(187, 105, 119));  
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .Beta {
+      color: white;
+      font-family: sans-serif;
+      font-size: 25px;
+      text-align: center;
+      font-weight: 550;
+      margin-top: 10px;
+    }
+    
+    .ios4 {
+      color: pink;
+      margin: 7px -73px 7px -73px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    .ios1-1 {
+      color: white;
+      margin: -22.5px 5px -22.5px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+    
+    .ios1-2 {
+      color: white;
+      margin: 0px 5px 0px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    
+    
+    
+    #sqr7 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(255, 198, 255), rgb(201, 97, 201));  
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    #sqr5-1 {
+      width: 95px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 60px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    .ios5 {
+      color: rgb(255, 198, 255);
+      margin: 7px -55px 7px -55px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    .ios2-1 {
+      color: white;
+      margin: -22.5px 5px -22.5px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+    
+    .iphone6 {
+      width: 70%;
+    }
+    
+    
+    
+    #sqr8 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, pink, rgb(222, 67, 93));   
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .ios6 {
+      color: pink;
+      margin: 7px -72px 7px -72px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    #sqr9 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(211, 25, 56), rgb(139, 3, 25));   
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .ios9 {
+      color: rgb(211, 25, 56);
+      margin: 7px -55px 7px -55px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    #sqr5-2 {
+      width: 100px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: white;
+      border-width: 1px;
+      border-style: none;
+      color: royalblue;
+      font-family: sans-serif;
+      padding: 8px 5px 8px 5px;
+      margin-top: 20px;
+    }
+    
+    
+    #sqr10 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(16, 91, 152), rgb(7, 57, 104));   
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    #sqr6-2 {
+      width: 90px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: white;
+      border-width: 1px;
+      border-style: none;
+      color: royalblue;
+      font-family: sans-serif;
+      padding: 7px 10px 7px 10px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    
+    .ios8 {
+      color: rgb(16, 91, 152);
+      margin: 7px -70px 7px -70px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    
+    .container5 {
+      padding: 50px 0px 50px 0px;
+      width: 100%;
+      display: block;
+    }
+    
+    
+    
+    #sqr11 {
+      width: 100%;
+      height: 500px;
+      border-radius: 30px;
+      padding: 50px 10px 50px 10px;
+      background-color: #222222;
+      background-image: url(img/donate-image-2x.webp);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+    
+    .working {
+      color: white;
+      font-family: sans-serif;
+      font-size: 20px;
+      margin: 0px;
+    }
+    
+    .freee {
+      color: darkgrey;
+      font-family: sans-serif;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #sqr11 > .cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .paypalll {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      background-color: rgba(56, 152, 248, 0.611);
+      padding: 0px 10px 0px 10px;
+      display: flex;
+    }
+    
+    .payy {
+      width: 70px;
+      object-fit: cover;
+    }
+    
+    .coffee {
+      width: 140px;
+      height: 30px;
+      border-radius: 5px;
+      background-color:  #df187851;
+      padding: 2px 5px 2px 5px;
+      display: flex;
+      flex-direction: row;
+      margin: 0px;
+      margin-top: 20px;
+    }
+    
+    .cup {
+      width: 30px;
+    }
+    
+    .buy {
+      color: #DF1877;
+      font-family: sans-serif;
+      font-size: 13px;
+      margin-top: 6px;
+    }
+    
+    
+    
+    .container6 {
+      padding: 100px 0px 100px 0px;
+      width: 100%;
+      display: block;
+    }
+    
+    
+    #sqr12 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom left, rgb(216, 165, 69), rgb(255, 115, 0),rgb(87, 87, 124));
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    
+    
+    #sqr6-1 {
+      width: 120px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 70px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    
+    
+    .ios12 {
+      color: rgb(216, 165, 69);
+      margin: 7px -62px 7px -62px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    
+    
+    .ios1-1 {
+      color: white;
+      margin: -22.5px 5px -22.5px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+    
+    .ios1-2 {
+      color: white;
+      margin: 0px 5px 0px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    
+    .iphone3 {
+      width: 70%;
+    }
+    
+    
+    
+    #sqr13 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom left, rgb(181, 193, 242), rgb(64, 64, 91));
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .ios13 {
+      color: rgb(181, 193, 242);
+      margin: 7px -83px 7px -83px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    #sqr7-1 {
+      width: 140px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 90px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    .ios2-1 {
+      color: white;
+      margin: -22.5px 5px -22.5px 5px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+    
+    .iphone4 {
+      width: 70%;
+    }
+    
+    
+    
+    #sqr14 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom, rgb(0, 255, 213), rgb(38, 64, 59));  
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    }
+    
+    .ios14 {
+      color: rgb(0, 255, 213);
+      margin: 7px -85px 7px -85px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    .iphone5 {
+      width: 70%;
+    }
+    
+    
+    
+    
+    #sqr15 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom, rgb(252, 145, 247), rgb(216, 120, 211), rgb(119, 43, 157));  
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    
+    }
+    
+    .ios15 {
+      color: rgb(252, 145, 247);
+      margin: 7px -82px 7px -82px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    
+    
+    
+    #sqr16 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(242, 145, 75), rgb(236, 49, 12));  
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    
+    }
+    
+    #sqr5-1 {
+      width: 95px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 60px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    .ios16 {
+      color: rgb(242, 145, 75);
+      margin: 7px -65px 7px -65px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    
+    
+    #sqr17 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(251, 140, 159), rgb(240, 39, 73));   
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 0px 10px;
+      align-items: center;
+      margin-top: 80px;
+    
+    }
+    
+    .ios17 {
+      color: rgb(251, 140, 159);
+      margin: 7px -85px 7px -85px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    
+    
+    #sqr18 {
+      width: 100%;
+      height: 550px;
+      background-image: linear-gradient(to bottom right, rgb(212, 27, 233), rgb(129, 5, 148));
+      border-radius: 20px;
+      padding: 20px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;    
+    }
+    
+    #sqr8-1 {
+      width: 135px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
+      border-width: 1px;
+      border-left-color: white;
+      border-left-width: 60px;
+      border-style: solid;
+      border-color: white;
+      margin-top: 20px;
+    }
+    
+    .ios7 {
+      color: rgb(212, 27, 233);
+      margin: 7px -55px 7px -55px;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    
+    #sqr5-3 {
+      width: 110px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: royalblue;
+      border-width: 1px;
+      border-style: none;
+      color: white;
+      font-family: sans-serif;
+      padding: 7px 8px 7px 10px;
+      margin-top: 20px;
+    }
+    
+    
+    
+    footer {
+      background-color: #1f1f1f;
+      width: 100%;
+      margin: 50px 0px 0px 0px;
+      padding: 20px 20px 100px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+    }
+    
+    .container8 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .img15 {
+      width: 200px;
+      height: 60px;
+      margin-top: 20px;
+    }
+    
+    .free {
+      margin-top: 20px; 
+      color: grey;
+      font-family: sans-serif;
+      font-size: 12px;
+    
+    }
+    
+
+    .twit {
+      width: 40px;
+      margin-bottom: 20px;
+    
+    }
+    
+    .face {
+      width: 40px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+    
+    }
+    
+    .container9 {
+      width: 100%;
+      margin-top: 50px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .wordings {
+      display: flex;
+    }
+    
+    .pay11 {
+      display:flex;
+      flex-direction: column;
+      text-align: left;
+      justify-items: center;
+    }
+    
+    .pay {
+      color: white;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    }
+    
+    .pay1 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;  
+      margin-bottom: 5px;
+    }
+    
+    .pay2 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    
+    .explore11 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+    }
+    
+    .explore {
+      color: white;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .explore1 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .explore2 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .explore3 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .explore4 {
+      color: rgb(206, 206, 206);
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .learn11 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+    }
+    
+    .learn {
+      color: white;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .learn1 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .learn2 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .learn3 {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    .learn4 {
+      color: rgb(206, 206, 206);
+      font-family: sans-serif;
+      font-size: 10px;
+      margin-bottom: 5px;
+    
+    }
+    
+    hr {
+      width: 100%;
+      opacity: 0.25;
+    }
+    
+    
+    .container10 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    
+    
+    .car {
+      margin: 30px 0px 0px 0px; 
+      color: grey;
+      font-family: sans-serif;
+      font-size: 14px;
+      text-align: center;
+    } 
+    
+    
+    .container11 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    
+    .legal {
+      margin: 30px 0px 10px 0px; 
+      color: rgb(213, 213, 213);
+      font-family: sans-serif;
+      font-size: 14px;
+      text-align: center;
+    } 
+    
+    
+    .this {
+      color: grey;
+      font-family: sans-serif;
+      font-size: 12px;
+      text-align: center;
+
+    } 
+} 
